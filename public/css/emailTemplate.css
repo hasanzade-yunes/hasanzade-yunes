@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(238, 237, 237);
+    font-family: 'IRANSans';
+}
+
+
+
+
+.emailTemplate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 500px;
+    height: 300px;
+    background-color: #fff;
+    margin: 200px auto;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    position: relative;
+}
+
+
+.emailTemplate .logo{
+    height: 70px;
+    border-radius: 3px 3px 0 0;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #d0cfcf;
+    display: inline-block;
+}
+
+.emailTemplate .logo img{
+    width: 60px;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+
+.emailTemplate .fname{
+    margin-top: 30px;
+}
+
+
+.emailTemplate .fname p{
+    margin-top: 15px;
+    margin-right: 15px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.emailTemplate .fname span{
+    font-weight: 900;
+    font-size: 15px;
+    color: #000;
+}
+
+.emailTemplate .text{
+    margin: 10px 10px;
+    padding: 10px;
+    
+}
+
+.emailTemplate .text{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.emailTemplate .emailBtn{
+    margin-top: 10px 20px;
+    padding: 10px;
+}
+
+.emailTemplate .emailBtn a{
+    padding: 10px 15px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 3px;
+    background-color: #009494;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+@media screen and (max-width : 575px) {
+    
+    .emailTemplate{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 330px;
+        height: 300px;
+        background-color: #fff;
+        margin: 200px auto;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+        position: relative;
+    }
+    
+    
+    .emailTemplate .logo{
+        height: 70px;
+        border-radius: 3px 3px 0 0;
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #d0cfcf;
+        display: inline-block;
+    }
+    
+    .emailTemplate .logo img{
+        width: 60px;
+        margin-top: 15px;
+        margin-right: 15px;
+    }
+    
+    
+    .emailTemplate .fname{
+        margin-top: 30px;
+    }
+    
+    
+    .emailTemplate .fname p{
+        margin-top: 15px;
+        margin-right: 15px;
+        padding: 10px;
+        font-size: 15px;
+    }
+    
+    .emailTemplate .fname span{
+        font-weight: 900;
+        font-size: 15px;
+        color: #000;
+    }
+    
+    .emailTemplate .text{
+        margin: 10px 10px;
+        padding: 10px;
+        
+    }
+    
+    .emailTemplate .text{
+        font-size: 15px;
+        line-height: 30px;
+    }
+    
+    .emailTemplate .emailBtn{
+        margin-top: 10px 20px;
+        padding: 10px;
+    }
+    
+    .emailTemplate .emailBtn a{
+        padding: 10px 15px;
+        color: #fff;
+        font-weight: bold;
+        border-radius: 3px;
+        background-color: #009494;
+        text-decoration: none;
+        margin-right: 10px;
+    }
+
+
+}
+
+
+@media screen and (min-width:575px) and (max-width:767px){
+    .emailTemplate{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 400px;
+        height: 300px;
+        background-color: #fff;
+        margin: 200px auto;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+        position: relative;
+    }
+    
+    
+    .emailTemplate .logo{
+        height: 70px;
+        border-radius: 3px 3px 0 0;
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #d0cfcf;
+        display: inline-block;
+    }
+    
+    .emailTemplate .logo img{
+        width: 60px;
+        margin-top: 15px;
+        margin-right: 15px;
+    }
+    
+    
+    .emailTemplate .fname{
+        margin-top: 30px;
+    }
+    
+    
+    .emailTemplate .fname p{
+        margin-top: 15px;
+        margin-right: 15px;
+        padding: 10px;
+        font-size: 16px;
+    }
+    
+    .emailTemplate .fname span{
+        font-weight: 900;
+        font-size: 16px;
+        color: #000;
+    }
+    
+    .emailTemplate .text{
+        margin: 10px 10px;
+        padding: 10px;
+        
+    }
+    
+    .emailTemplate .text{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    
+    .emailTemplate .emailBtn{
+        margin-top: 10px 20px;
+        padding: 10px;
+    }
+    
+    .emailTemplate .emailBtn a{
+        padding: 10px 15px;
+        color: #fff;
+        font-weight: bold;
+        border-radius: 3px;
+        background-color: #009494;
+        text-decoration: none;
+        margin-right: 10px;
+    }
+
+}

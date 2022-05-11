@@ -1,0 +1,1613 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 150vh;
+    background-color: rgb(255, 250, 250);
+    font-family: 'IRANSans';
+}
+
+div.headOrder{
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 100%;
+    height: 80px;
+    background-color: #d5d5d5;
+}
+
+.headOrder .logo{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+.headOrder .logo img{
+    width: 70px;
+    margin-right: 20px;
+    margin-top: 10px;
+    object-fit: cover;
+}
+
+
+
+.profile{
+    display: flex;
+    position: absolute;
+    right: 200px;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.profile svg{
+    width: 20px;
+}
+.profile .flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.profile .flex .down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #009492;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    
+}
+.profile .flex .down svg{
+    margin-left: 5px;
+}
+.profile .flex svg{
+    width: 25px;
+    background-color: #a3d2d2;
+    padding: 5px;
+    border-radius: 100%;
+}
+
+.profile .flex .down button{
+    color: #fff;
+    background-color: #009492;
+    border: none;
+}
+.profile .drop{
+    display: none;
+    width: 180px;
+    position: absolute;
+    background-color: #b6cfcf;
+    top: 55px;
+    right: 10px;
+}
+
+
+
+.profile .drop ul li{
+    list-style: none;
+}
+.profile .drop ul li button{
+    width: 100%;
+    margin-top: 10px;
+    margin-right: 15px;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    background-color: #009492;
+    color: #fff;
+    font-size: 15px;
+}
+
+
+
+.headOrder .qoute{
+    position: absolute;
+    left: 0;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.headOrder .qoute button{
+    border: none;
+    background-color: #009492;
+    color: #fff;
+    border-radius: 3px;
+    padding: 8px;
+    font-weight: bold;
+}
+
+/***********************************************row1*************************************/
+
+.content{
+    display: flex;
+    
+}
+
+.content h5{
+   float: right;
+}
+.titleOne{
+    direction: rtl;
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid #ddd;
+    margin-top: 20px;
+    text-align: right;
+    
+}
+
+.titleOne h5{
+    margin-right: 30px;
+}
+
+.content .parivateData{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #6e6e6e;
+    width: 320px;
+    height: 380px;
+    margin-top: 50px;
+    padding: 7px;
+    border-radius: 5px;
+    box-shadow: #6e6e6e;
+    background-color: #fff;
+}
+
+.content .parivateData p{
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.content .private{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.content .private .name{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.content .private .name .one{
+    font-size: 14px;
+    margin: 3px 5px;
+}
+.content .private .name .tow{
+    font-size: 14px;
+    margin: 3px 5px;
+    font-weight: bold;
+}
+
+.content .private .company{
+    display: flex;
+    flex-direction: column;
+}
+.content .private .company .one{
+    font-size: 14px;
+    margin: 3px 5px;
+}
+
+.content .private .company .tow{
+    font-size: 14px;
+    margin: 3px 5px;
+    font-weight: bold;
+}
+
+.content .private .email{
+    display: flex;
+    flex-direction: column;
+}
+.content .private .email .one{
+    font-size: 14px;
+    margin: 3px 5px;
+}
+
+.content .private .email .tow{
+    font-size: 15px;
+    margin: 3px 5px;
+    font-weight: bold;
+}
+
+.content .private .mobile{
+    display: flex;
+    flex-direction: column;
+}
+
+.content .private .mobile .one{
+    font-size: 14px;
+    margin: 3px 5px;
+}
+.content .private .mobile .tow{
+    font-size: 14px;
+    margin: 3px 5px;
+    font-weight: bold;
+}
+
+.content .parivateData .footer-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.content .parivateData .footer-one a{
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 7px;
+}
+
+.content .parivateData .footer-one .btn-footer{
+    background-color: #009492;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    width: 100px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+
+.content .edit{
+    display: none;
+    flex-direction: column;
+    border: 2px solid #6e6e6e;
+    width: 320px;
+    height: 380px;
+    margin-top: 50px;
+    padding: 7px;
+    border-radius: 5px;
+    box-shadow: #6e6e6e;
+    background-color: #fff;
+}
+
+.content .edit p{
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.content .edit .editData img{
+    width: 18px;
+    position: absolute;
+    left: 10px;
+    top: -40px;
+    cursor: pointer;
+}
+.content .editData{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    position: relative;
+}
+
+
+.content .editData .name{
+    display: flex;
+    flex-direction: column;
+}
+
+.content .editData .name .one{
+    font-size: 14px;
+    margin: 3px 5px;
+    font-weight: bold;
+}
+.content .editData .name .tow{
+    border: none;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    margin: 3px 5px;
+    font-weight: bold;
+}
+.content .editData .name .tow:focus{
+    outline: none;
+    background-color: #fff;
+}
+
+.content .editData .company{
+    display: flex;
+    flex-direction: column;
+}
+.content .editData .company .one{
+    font-size: 14px;
+    margin: 3px 5px;
+    font-weight: bold;
+}
+
+.content .editData .company .tow{
+    border: none;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    margin: 3px 5px;
+    font-weight: bold;
+}
+
+.content .editData .company .tow:focus{
+    outline: none;
+    background-color: #fff;
+}
+
+.content .editData .email{
+    display: flex;
+    flex-direction: column;
+}
+.content .editData .email .one{
+    font-size: 14px;
+    margin: 3px 5px;
+    font-weight: bold;
+}
+
+.content .editData .email .tow{
+    border: none;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    margin: 3px 5px;
+    font-weight: bold;
+}
+
+.content .editData .email .tow:focus{
+    outline: none;
+    background-color: #fff;
+}
+
+.content .editData .mobile{
+    display: flex;
+    flex-direction: column;
+}
+
+.content .editData .mobile .one{
+    font-size: 12px;
+    margin: 3px 5px;
+    font-weight: bold;
+}
+.content .editData .mobile .tow{
+    border: none;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    margin: 3px 5px;
+    font-weight: bold;
+}
+
+.content .editData .mobile .tow:focus{
+    outline: none;
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+.content .edit .footer-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.content .edit .footer-one a{
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+.content .edit .footer-one .btn-footer{
+    background-color: #009492;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    width: 100px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 0;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+ .edits{
+    display: none;
+    flex-direction: column;
+    border: 2px solid #6e6e6e;
+    width: 320px;
+    height: 380px;
+    margin-top: 50px;
+    padding: 7px;
+    border-radius: 5px;
+    box-shadow: #6e6e6e;
+    background-color: #fff;
+    position: relative;
+    margin-right: 60px;
+}
+
+.edits p{
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 5px;
+    font-size: 16px;
+    font-weight: bold;
+} 
+
+
+
+.content .editCompany img{
+    width: 18px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+
+
+.content .editCompany .name{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.content .editCompany .name .one{
+    color: #000;
+    font-size: 12px;
+}
+.content .editCompany .name .tow{
+    width: 250px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    font-size: 12px;
+    font-weight: bold;
+}
+.content .editCompany .name .tow:focus{
+    outline: none;
+    background-color: #fff;
+}
+
+.content .editCompany .company{
+    display: flex;
+    flex-direction: column;
+}
+.content .editCompany .company .one{
+    font-size: 12px;
+    margin-top: 5px;
+    color: #000;
+}
+
+.content .editCompany .company .tow{
+    width: 250px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.content .editCompany .company .tow:focus{
+    outline: none;
+    background-color: #fff;
+}
+
+.content .editCompany .email{
+    display: flex;
+    flex-direction: column;
+}
+.content .editCompany .email .one{
+    font-size: 12px;
+    margin-top: 5px;
+    color: #000;
+}
+
+.content .editCompany .email .tow{
+    width: 250px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.content .editCompany .email .tow:focus{
+    outline: none;
+    background-color: #fff;
+}
+
+.content .editCompany .mobile{
+    display: flex;
+    flex-direction: column;
+}
+
+.content .editCompany .mobile .one{
+    font-size: 12px;
+    margin-top: 5px;
+    color: #000;
+}
+.content .editCompany .mobile .tow{
+    width: 250px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.content .editCompany .mobile .tow:focus{
+    outline: none;
+    background-color: #fff;
+}
+.content .editCompany .sabet{
+    display: flex;
+    flex-direction: column;
+}
+
+.content .editCompany .sabet .one{
+    font-size: 12px;
+    margin-top: 5px;
+    color: #000;
+}
+.content .editCompany .sabet .tow{
+    width: 250px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.content .editCompany .sabet .tow:focus{
+    outline: none;
+    background-color: #fff;
+}
+.content .editCompany .companyAdd{
+    display: flex;
+    flex-direction: column;
+}
+
+.content .editCompany .companyAdd .one{
+    font-size: 12px;
+    margin-top: 5px;
+    color: #000;
+}
+.content .editCompany .companyAdd .tow{
+    width: 250px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.content .editCompany .companyAdd .tow:focus{
+    outline: none;
+    background-color: #fff;
+}
+
+.edits .footer-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 7px;
+    top: 330px;
+}
+
+.edits .content .footer-one a{
+    text-decoration: none;
+    cursor: pointer; 
+}
+
+.content .edits .footer-one .btn-footer{
+    background-color: #009492;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    width: 100px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 0;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/************************************* row 1 column 2***********************************/
+
+/* .content .companyData{
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+    border: 2px solid #6e6e6e;
+    width: 320px;
+    height: 340px;
+    margin-top: 50px;
+    padding: 7px;
+    border-radius: 5px;
+    box-shadow: #6e6e6e;
+    background-color: #fff;
+}
+
+
+.content .companyData .input-1{
+    margin-top: 5px;
+}
+.content .companyData .inputGg{
+    position: relative;
+    display: flex;
+    margin-top: 15px;
+}
+
+.content .companyData .inputGg span{
+    position: absolute;
+    right: 75px;
+    top: 0px;
+    color: rgb(154, 150, 150);
+}
+
+.content .companyData .input-1 .coustom{
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 10px;
+    margin-top: 5px;
+    
+}
+.content .companyData label{
+    font-size: 13px;
+    color: #000;
+    margin-top: 10px;
+}
+
+.content .companyData .input-1 input{
+    border: none;
+    border-bottom: 1px solid #ddd;
+    margin-top: 10px;
+    margin-right: 10px;
+}  
+.content .companyData .inputGg input{
+    border: none;
+    border-bottom: 1px solid #ddd;
+    margin-top: 10px;
+    margin-right: 10px;
+    
+}
+
+
+.content .companyData .input-1 input:focus{
+    outline: none;
+    font-size: 13px;
+    width: 100%;
+    border-bottom: 1px solid #009492;
+}
+.content .companyData .inputGg input:focus{
+    outline: none;
+    font-size: 13px;
+    width: 100%;
+    border-bottom: 1px solid #009492;
+}
+
+.content .companyData .input-1 input::placeholder{
+    
+    font-size: 13px;
+}
+.content .companyData .inputGg input::placeholder{
+    
+    font-size: 13px;
+}
+
+.content .companyData .input-1 textarea{
+    margin-left: 10px;
+    width: 90%;
+    outline: none;
+    width: 250px ;
+    border: none;
+    height: 40px;
+    margin-top: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.content .companyData .input-1 textarea::placeholder{
+    font-size: 13px;
+    
+}
+
+.content .companyData .footer-tow .btn-footer-2{
+    background-color: #009492;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    width: 100px;
+    border: none;
+    border-radius: 3px;
+    float: left;
+    margin-top: 25px;
+    cursor: pointer;
+} */
+
+
+.ali{
+    display: none;
+}
+.content .companyData{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #6e6e6e;
+    width: 320px;
+    height: 380px;
+    margin-top: 50px;
+    padding: 7px;
+    border-radius: 5px;
+    box-shadow: #6e6e6e;
+    background-color: #fff;
+    margin-right: 60px;
+    position: relative;
+}
+
+.content .companyData img{
+    width: 18px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+
+.content .companyData .name{
+    display: flex;
+    flex-direction: column;
+}
+
+.content .companyData .name .one{
+    color: #000;
+    font-size: 12px;
+}
+.content .companyData .name .tow{
+    width: 250px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    font-size: 12px;
+    font-weight: bold;
+}
+.content .companyData .name .tow:focus{
+    outline: none;
+    background-color: #fff;
+}
+
+.content .companyData .company{
+    display: flex;
+    flex-direction: column;
+}
+.content .companyData .company .one{
+    font-size: 12px;
+    margin-top: 5px;
+    color: #000;
+}
+
+.content .companyData .company .tow{
+    width: 250px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.content .companyData .company .tow:focus{
+    outline: none;
+    background-color: #fff;
+}
+
+.content .companyData .email{
+    display: flex;
+    flex-direction: column;
+}
+.content .companyData .email .one{
+    font-size: 12px;
+    margin-top: 5px;
+    color: #000;
+}
+
+.content .companyData .email .tow{
+    width: 250px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.content .companyData .email .tow:focus{
+    outline: none;
+    background-color: #fff;
+}
+
+.content .companyData .mobile{
+    display: flex;
+    flex-direction: column;
+}
+
+.content .companyData .mobile .one{
+    font-size: 12px;
+    margin-top: 5px;
+    color: #000;
+}
+.content .companyData .mobile .tow{
+    width: 250px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.content .companyData .mobile .tow:focus{
+    outline: none;
+    background-color: #fff;
+}
+.content .companyData .sabet{
+    display: flex;
+    flex-direction: column;
+}
+
+.content .companyData .sabet .one{
+    font-size: 12px;
+    margin-top: 5px;
+    color: #000;
+    
+}
+.content .companyData .sabet .tow{
+    width: 250px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.content .companyData .sabet .tow:focus{
+    outline: none;
+    background-color: #fff;
+}
+.content .companyData .companyA{
+    display: flex;
+    flex-direction: column;
+}
+
+.content .companyData .companyA .one{
+    font-size: 12px;
+    margin-top: 5px;
+    color: #000;
+}
+.content .companyData .companyA .tow{
+    width: 250px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.content .companyData .companyA .tow:focus{
+    outline: none;
+    background-color: #fff;
+}
+
+.companyData .footer-one{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-top: 40px;
+}
+
+/* .content .footer-one a{
+    text-decoration: none;
+    cursor: pointer;
+    
+} */
+
+.content .footer-one .btn-footer{
+    background-color: #009492;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    width: 100px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 0;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/****************************************************row 2 column 1********************************/
+
+.account{
+    margin-top: 30px;
+    margin-right: 115px;
+    margin-bottom: -50px;
+}
+.account h6{
+    color: #009492;
+    font-weight: bold;
+}
+
+
+.daftar{
+    margin-top: 50px;
+    margin-bottom: -50px;
+    margin-right: 110px;
+}
+
+.daftar h6{
+   color: #009492;
+   font-weight: bold;
+}
+
+#profile .titleOne{
+    margin-top: 40px;
+    margin-right: 80px;
+}
+
+#profile .titleOne h5{
+    margin-bottom: 10px;
+}
+
+
+.content-down{
+    display: flex;
+}
+
+
+.content-down .dataPayment{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #6e6e6e;
+    width: 320px;
+    height: 380px;  
+    margin-top: 50px;
+    padding: 7px;
+    border-radius: 5px;
+    box-shadow: #6e6e6e;
+    background-color: #fff;
+}
+
+.dataPayment p{
+    font-weight: bold;
+}
+
+.down .dataPayment .detail{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.dataPayment .detail .company .tow{
+    margin-top: 30px;
+}
+
+.dataPayment .detail .post .tow{
+    margin-top: 30px;
+}
+
+.dataPayment .detail .address .tow{
+    margin-top: 30px;
+}
+
+.dataPayment .detail .mobile .tow{
+    margin-top: 30px;
+}
+
+.dataPayment .footer-tow{
+    flex-direction: row-reverse;
+    display: flex;
+    margin-top: 50px;
+}
+
+/* .dataPayment .footer-tow a{
+    text-decoration: none;
+} */
+
+.dataPayment .footer-tow .btn-footer-2{
+    background-color: #009492;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    width: 100px;
+    border: none;
+    border-radius: 3px;
+    float: left;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+.content-down .dataPayment-1{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #6e6e6e;
+    width: 320px;
+    height: 380px;  
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-right: 20px;
+    padding: 7px;
+    border-radius: 5px;
+    box-shadow: #6e6e6e;
+    background-color: #fff;
+}
+
+.dataPayment-1 p{
+    font-weight: bold;
+}
+
+.down .dataPayment-1 .detail{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.dataPayment-1 .detail .company .tow{
+    margin-top: 30px;
+}
+
+.dataPayment-1 .detail .post .tow{
+    margin-top: 30px;
+}
+
+.dataPayment-1 .detail .address .tow{
+    margin-top: 30px;
+}
+
+.dataPayment-1 .detail .mobile .tow{
+    margin-top: 30px;
+}
+
+.dataPayment-1 .footer-tow{
+    flex-direction: row-reverse;
+    display: flex;
+    margin-top: 50px;
+}
+
+/* .dataPayment-1 .footer-tow a{
+    text-decoration: none;
+} */
+
+.dataPayment-1 .footer-tow .btn-footer-2{
+    background-color: #009492;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    width: 100px;
+    border: none;
+    border-radius: 3px;
+    float: left;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+.content-down .editSubmit{
+    display: none;
+    flex-direction: column;
+    border: 2px solid #6e6e6e;
+    width: 320px;
+    height: 500px;  
+    margin-top: 50px;
+    margin-right: 15px;
+    padding: 7px;
+    border-radius: 5px;
+    box-shadow: #6e6e6e;
+    background-color: #fff;
+    position: relative;
+}
+
+
+.editSubmit input:focus{
+    outline: none;
+}
+
+.editSubmit img{
+    position: absolute;
+    width: 15px;
+    left: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.editSubmit .lname{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.editSubmit .lname label{
+    font-size: 13px;
+}
+
+.editSubmit .lname input{
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+.editSubmit .lname input::placeholder{
+    font-size: 13px;
+}
+
+.editSubmit .companyName{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.editSubmit .companyName label{
+    font-size: 13px;
+}
+
+.editSubmit .companyName input{
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+.editSubmit .companyName input::placeholder{
+    font-size: 13px;
+}
+
+.editSubmit .mobileSubmit{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.editSubmit .mobileSubmit label{
+    font-size: 13px;
+}
+
+.editSubmit .mobileSubmit input{
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+.editSubmit .mobileSubmit input::placeholder{
+    font-size: 13px;
+}
+.editSubmit .area{
+    margin-top: 10px;
+}
+
+.editSubmit .area textarea{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ddd;
+}
+
+.editSubmit .citySelect{
+    margin-top: 10px;
+}
+
+.editSubmit .citySelect select{
+    width: 300px;
+    height: 40px;
+    background-color: none;
+}
+
+.editSubmit .OstanSelect select{
+    margin-top: 10px;
+    width: 300px;
+    height: 40px;
+    background-color: none;
+}
+
+.editSubmit .codePost{
+    display: flex;
+    flex-direction: column;
+}
+
+.editSubmit.codePost label{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.editSubmit .codePost input{
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+.editSubmit .codePost input::placeholder{
+    font-size: 13px;
+}
+
+.editSubmit .submitBtn{
+    font-size: 15px;
+    width: 100px;
+    height: 35px;
+    padding: 5px;
+    font-weight: bold;
+    background-color: #009492;
+    color: #fff;
+    position: absolute;
+    left:10px;
+    bottom: 10px;
+    border:none;
+    border-radius: 3px;
+}
+
+/************************************** row 2 column 3********************************/
+
+
+.add{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #6e6e6e;
+    width: 320px;
+    height: 380px;
+    margin-top: 50px;
+    margin-right: 40px;
+    padding: 7px;
+    border-radius: 5px;
+    box-shadow: #6e6e6e;
+    background-color: #fff;
+}
+
+.add  img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.add h5{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+
+.addAddress{
+    position: relative;
+    display: none;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20px;
+    border: 2px solid #6e6e6e;
+    width: 320px;
+    height: 500px;
+    margin-top: 50px;
+    padding: 7px;
+    border-radius: 5px;
+    box-shadow: #6e6e6e;
+    background-color: #fff;
+}
+
+
+.addAddress input:focus{
+    outline: none;
+}
+
+.addAddress .check img{
+    position: absolute;
+    width: 15px;
+    left: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.addAddress .lname{
+    margin-top: 10px;
+}
+
+.addAddress .lname label{
+    font-size: 13px;
+}
+
+.addAddress .lname input{
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+.addAddress .lname input::placeholder{
+    font-size: 13px;
+}
+
+.addAddress .companyName{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.addAddress .companyName label{
+    font-size: 13px;
+}
+
+.addAddress .companyName input{
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+.addAddress .companyName input::placeholder{
+    font-size: 13px;
+}
+
+.addAddress .mobileSubmit{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.addAddress .mobileSubmit label{
+    font-size: 13px;
+}
+
+.addAddress .mobileSubmit input{
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+.addAddress .mobileSubmit input::placeholder{
+    font-size: 13px;
+}
+.addAddress .area{
+    margin-top: 10px;
+}
+
+.addAddress .area textarea{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ddd;
+}
+
+.addAddress .citySelect{
+    margin-top: 10px;
+}
+
+.addAddress .citySelect select{
+    width: 300px;
+    height: 40px;
+    background-color: none;
+}
+
+.addAddress .OstanSelect select{
+    margin-top: 10px;
+    width: 300px;
+    height: 40px;
+    background-color: none;
+}
+
+.addAddress .codePost{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.addAddress .codePost label{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.addAddress .codePost input{
+    border: none;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 50px;
+}
+
+.addAddress .codePost input::placeholder{
+    font-size: 13px;
+}
+
+.addAddress .submitBtn{
+    font-size: 15px;
+    width: 100px;
+    height: 35px;
+    padding: 5px;
+    font-weight: bold;
+    background-color: #009492;
+    color: #fff;
+    position: absolute;
+    left:10px;
+    bottom: 10px;
+    border:none;
+    border-radius: 3px;
+}
+
+
+
+
+.addAddressZerro{
+    position: relative;
+    display: none;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid #6e6e6e;
+    width: 320px;
+    height: 500px;
+    margin-top: 50px;
+    padding: 7px;
+    border-radius: 5px;
+    box-shadow: #6e6e6e;
+    background-color: #fff;
+}
+
+
+.addAddressZerro input:focus{
+    outline: none;
+}
+
+.addAddressZerro img{
+    position: absolute;
+    width: 15px;
+    left: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.addAddressZerro .lname{
+    display: flex;
+    flex-direction: column;
+    margin-top: -10px;
+}
+
+.addAddressZerro .lname label{
+    font-size: 13px;
+}
+
+.addAddressZerro .lname input{
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+.addAddressZerro .lname input::placeholder{
+    font-size: 13px;
+}
+
+.addAddressZerro .companyName{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.addAddressZerro .companyName label{
+    font-size: 13px;
+}
+
+.addAddressZerro .companyName input{
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+.addAddressZerro .companyName input::placeholder{
+    font-size: 13px;
+}
+
+.addAddressZerro .mobileSubmit{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.addAddressZerro .mobileSubmit label{
+    font-size: 13px;
+}
+
+.addAddressZerro .mobileSubmit input{
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+.addAddressZerro .mobileSubmit input::placeholder{
+    font-size: 13px;
+}
+.addAddressZerro .area{
+    margin-top: 10px;
+}
+
+.addAddressZerro .area textarea{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ddd;
+}
+
+.addAddressZerro .citySelect{
+    margin-top: 10px;
+}
+
+.addAddressZerro .citySelect select{
+    width: 300px;
+    height: 40px;
+    background-color: none;
+}
+
+.addAddressZerro .OstanSelect select{
+    margin-top: 10px;
+    width: 300px;
+    height: 40px;
+    background-color: none;
+}
+
+.addAddressZerro .codePost{
+    display: flex;
+    flex-direction: column;
+}
+
+.addAddressZerro .codePost label{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.addAddressZerro .codePost input{
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+.addAddressZerro .submitBtn{
+    font-size: 15px;
+    width: 100px;
+    height: 35px;
+    padding: 5px;
+    font-weight: bold;
+    background-color: #009492;
+    color: #fff;
+    position: absolute;
+    left:10px;
+    bottom: 10px;
+    border:none;
+    border-radius: 3px;
+}
+
+.addAddressZerro .codePost input::placeholder{
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

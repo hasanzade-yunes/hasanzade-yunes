@@ -1,0 +1,1517 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    min-height: 120vh;
+    max-width: auto;
+    background-color: #FAFAFA;
+    font-family: 'IRANSans','B Yekan';
+}
+
+.head{
+    background-color: #FAFAFA;
+    height: 55px;
+}
+
+.head .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.head .nav .register{
+    display: flex;
+}
+
+.head .nav .register img{
+    width: 88px;
+    margin-top: 45px;
+    margin-right: 50px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.temp .lable{
+    display: none;
+    margin-bottom: -15px;
+    font-size: 13px;
+    margin-top: 16px;
+    margin-right: 10px;
+    color: rgb(53, 3, 3);
+    font-size: 11px;
+}
+.content .lable1{
+    display: none;
+    margin-bottom: -17;
+    font-size: 13px;
+    margin-top: 16px;
+    margin-right: 10px;
+    color: rgb(53, 3, 3);
+    font-size: 11px;
+}
+.content .lable2{
+    display: none;
+    margin-bottom: -17;
+    font-size: 13px;
+    margin-top: 16px;
+    margin-right: 10px;
+    color: rgb(53, 3, 3);
+    font-size: 11px;
+}
+.content .lable3{
+    display: none;
+    margin-bottom: -17;
+    font-size: 13px;
+    margin-top: 16px;
+    margin-right: 10px;
+    color: rgb(53, 3, 3);
+    font-size: 11px;
+}
+.content .lable4{
+    display: none;
+    margin-bottom: -17;
+    font-size: 13px;
+    margin-top: 16px;
+    margin-right: 10px;
+    color: rgb(53, 3, 3);
+    font-size: 11px;
+}
+
+
+
+
+
+
+
+
+#section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content-register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+
+.content-register h5{
+    text-align: center;
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-left: 45px;
+    padding: 5px;
+}
+
+.content-register .asign{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid rgb(181, 181, 181);
+}
+
+.content-register p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 45px;
+    padding: 5px;
+}
+
+.content-register button{
+    width: 130px;
+    height: 40px;
+    background-color: #009498;
+    color: #fff;
+    margin-top: 10px;
+    margin-right: 80px;
+    border-radius: 3px;
+    font-weight: 600;
+    border: none;
+}
+.content-register button:hover{
+    background-color: #018489;
+    transition: 0.5s;
+}
+
+.content-left{
+    
+    width: 550px;
+    height: 130px;
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid rgb(225, 223, 223);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+.content-left .detail{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-left .detail a{
+    text-decoration: none;
+    color: #009492;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.content-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-footer .detail{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-footer .detail a{
+    text-decoration: none;
+    color: #009492;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-right: 60px;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+.temp .validate{
+    font-size: 10px;
+    color: red;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: 'IRANSans';
+}
+
+.content{
+    display: flex;
+    width: 550px;
+    height: 600px;
+    background-color: #fff;
+    margin: 90px 0 auto;
+    border-radius: 5px;
+    border: 1px solid rgb(225, 223, 223);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+input{
+    border: none;
+    width: 90%;
+}
+
+input:focus{
+    border: none;
+    outline-style: none;
+    direction: rtl;
+}
+
+
+
+
+input[placeholder] {
+    color: #033131 !important;
+    font-size: 12px;
+    padding: 3px 3px;
+}
+
+
+
+
+
+.temp{
+    padding: 5px 15px;
+}
+
+
+
+.temp select{
+  width: 95%;
+  
+  max-width: 60ch;
+  border: 1px solid #ddd;
+  border-radius: 0.25em;
+  padding:  0px 5px;
+  font-size: 15px;
+  cursor: pointer;
+  line-height: 1.1;
+  background-color: rgb(243, 243, 243);
+  
+    
+}
+
+.content img{
+    width: 15px;
+}
+
+.content .title-form .title h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 28px;
+    color: #000;
+    font-weight: 900;
+}
+
+.content .title-form .title p{
+    text-align: center;
+    font-size: 20px;
+    color: #000;
+}
+
+/* select .sajjad{
+    border: none;
+    outline: none;
+    appearance: none;
+    background-color: rgb(158, 192, 192);
+    color: #fff;
+    padding: 5px 10px;
+    border-color: #009492;
+} */
+
+
+
+.content .input-1{
+    
+    width: 90%;
+    border-bottom: 1px solid #009492;
+    margin-top: 10px;
+    margin-right: 10px;
+    
+}
+
+.content .input-1 svg{
+    width: 20px;
+    color: rgb(187, 182, 182);
+}
+
+.content .input-2{
+    width: 90%;
+    border-bottom: 1px solid #009492;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.content .input-2 svg{
+    width: 20px;
+}
+
+
+.content .input-3{
+    width: 90%;
+    border-bottom: 1px solid #009492;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.content .input-3 svg{
+    width: 20px;
+}
+
+
+
+.content .input-4{
+    display: flex;
+    width: 90%;
+    border-bottom: 1px solid #009492;
+    margin-top: 10px;
+    margin-right: 10px;
+    
+}
+
+.content .input-4 svg{
+    width: 20px;
+}
+.content .input-5{
+    display: flex;
+    width: 90%;
+    border-bottom: 1px solid #009492;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.content .input-5 svg{
+    width: 20px;
+}
+.content .input-6{
+    width: 90%;
+    border-bottom: 1px solid #009492;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.content .input-6 svg{
+    width: 20px;
+}
+
+.toggle .img-2{
+    display: none;
+    margin-top: 5px;
+}
+
+
+
+.toggle img{
+    color: #505050;
+    opacity: .7;
+    cursor: pointer;
+    font-size: 19px;
+}
+
+.toggle img:hover{
+    opacity: 1;
+}
+
+.hide .img-1{
+    display: none;
+}
+
+.hide .img-2{
+    display: inline-block;
+}
+
+
+
+.togglePassword .img-4{
+    display: none;
+    margin-top: 5px;
+}
+
+
+
+.togglePassword img{
+    color: #505050;
+    opacity: .7;
+    cursor: pointer;
+    font-size: 19px;
+}
+
+.togglePassword img:hover{
+    opacity: 1;
+}
+
+.hide .img-3{
+    display: none;
+}
+
+.hide .img-4{
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+.content .check{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    padding: 15px;
+}
+.content .check h6{
+    font-size: 14px;
+    margin-top: 11px;
+    margin-right: 7px;
+    color: #009492;
+}
+
+.content .check input.ali{
+    border-color: #157347;
+    font-weight: bold;
+}
+
+
+.content button.coustom{
+    border: none;
+    border-radius: 3px;
+    height: 40px;
+    background-color: #009498;
+    margin-top: 50px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.content .down{
+    display: flex;
+    align-items: center;
+}
+
+.content .down h6{
+    margin-top: 11px;
+    margin-right: 10px;
+    padding: 15px;
+    color: #009492;
+}
+
+.content .down a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #009492;
+    font-weight: bold;
+}
+
+@media screen and (max-width:575px){
+    .head .nav .register img{
+        width: 70px;
+        margin-top: 15px;
+        margin-right: 50px;
+        object-fit: cover;
+        cursor: pointer;
+    }
+
+
+    #section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .content-register{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+
+     .content-register .asign{
+        display: flex;
+        flex-direction: column;
+        border-left: 2px solid rgb(206, 206, 206);
+     }
+    
+    .content-register h5{
+        text-align: right;
+        font-size: 12px;
+        color: #000;
+        font-weight: 700;
+    }
+    
+    .content-register p{
+        text-align: right;
+        font-size: 13px;
+        font-weight: bold;
+    
+        
+    }
+    
+    .content-register button{
+        width: 120px;
+        height: 40px;
+        font-size: 12px;
+        background-color: #009498;
+        color: #fff;
+        font-weight: bold;
+        border-radius: 5px;
+        border: none;
+        margin-top: 10px;
+        margin-right: 30px;
+    }
+    .content-register .asign{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    
+    .content-left{
+        
+        width: 350px;
+        height: 150px;
+        background-color: #fff;
+    }
+    
+    .content-left .detail{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .content-left .detail a{
+        text-decoration: none;
+        color: #009492;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .content-footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .content-footer .detail{
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .content-footer .detail a{
+        text-decoration: none;
+        color: #009492;
+        font-size: 12px;
+        margin-top: 10px;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+
+    .content-footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .content-footer .detail{
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .content-footer .detail a{
+        text-decoration: none;
+        color: #009492;
+        font-size: 9px;
+        margin-top: 10px;
+        margin-right: 20px;
+        margin-left: 40px;
+    }
+
+
+    .content{
+        width: 350px;
+        height: 550px;
+        background-color: #fff;
+        margin: 30px auto;
+        border-radius: 1px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    }
+    
+    input{
+        border: none;
+        width: 90%;
+    }
+    
+    input:focus{
+        border: none;
+        outline-style: none;   
+    }
+    
+    
+    
+    input[placeholder] {
+        color: #033131 !important;
+        font-size: 12px;
+        padding: 3px 3px;
+    }
+    
+    .temp{
+        padding: 5px 15px;
+    }
+    
+    .temp .lable{
+        margin-bottom: 10px;
+        font-size: 11px;
+    }
+    .content img{
+        width: 15px;
+    }
+    
+    .content .title-form .title h4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        font-size: 24px;
+        color: #000;
+        font-weight: bold;
+    }
+    
+    .temp select{
+        width: 97%;
+        
+        max-width: 55ch;
+        border: 1px solid #ddd;
+        border-radius: 0.25em;
+        padding:  0px 5px;
+        font-size: 15px;
+        cursor: pointer;
+        line-height: 1.1;
+        background-color: rgb(243, 243, 243);
+        
+        }
+    
+    .content .input-1{
+        width: 90%;
+        border-bottom: 1px solid #009492;
+        margin-top: 10px;
+        margin-right: 10px;
+        border-radius: 3px;
+    }
+    
+    .content .input-2{
+        width: 90%;
+        border-bottom: 1px solid #009492;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 3px;
+    }
+    .content .input-7{
+        width: 90%;
+        border-bottom: 1px solid #009492;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 3px;
+    }
+    .content .input-3{
+        width: 90%;
+        border-bottom: 1px solid #009492;
+        margin-top: 10px;
+        margin-right: 10px;
+        border-radius: 3px;
+    }
+    .content .input-4{
+        width: 90%;
+        border-bottom: 1px solid #009492;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 3px;
+        
+    }
+    .content .input-5{
+        width: 90%;
+        border-bottom: 1px solid #009492;
+        margin-top: 10px;
+        margin-right: 10px;
+        border-radius: 3px;
+    }
+    .content .input-6{
+        width: 90%;
+        border-bottom: 1px solid #009492;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 3px;
+    }
+    
+    
+    .content .check{
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+        padding: 15px;
+    }
+    .content .check h6{
+        font-size: 12px;
+        line-height: 20px;
+        margin-top: 11px;
+        margin-right: 15px;
+        color: #157347;
+    }
+    
+    .content .check input.ali{
+        border-color: #157347;
+        font-weight: bold;
+    }
+    
+    
+    .content button.coustom{
+        margin-top: 40px;
+    }
+    
+    .content .down{
+        display: flex;
+        align-items: center;
+    }
+    
+    .content .down h6{
+        font-size: 14px;
+        margin-top: 11px;
+        margin-right: 10px;
+        padding: 15px;
+        color: #157347;
+    }
+    
+    .content .down a{
+        text-decoration: none;
+        font-size: 13px;
+        color: #157347 ;
+        font-weight: bold;
+    }
+}
+
+
+
+
+@media screen and (min-width:575px) and (max-width:767px){
+
+    .head .nav .register img{
+        width: 80px;
+        margin-top: 15px;
+        margin-right: 50px;
+        object-fit: cover;
+        cursor: pointer;
+    }
+
+
+
+
+
+    #section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .content-register{
+        display: flex;
+    }
+    
+    .content-register h5{
+        text-align: center;
+        font-size: 25px;
+        color: #000;
+        font-weight: 700;
+        margin: 10px 15px;
+    }
+    
+    .content-register p{
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+        margin: 10px 15px;
+        padding: 10px;
+    }
+    
+    .content-register button{
+        background-color: #009498;
+        color: #fff;
+        padding: 5px 10px;
+        border-radius: 7px;
+    }
+    .content-register button:hover{
+        background-color: #038280;
+        transition: 0.5s;
+    }
+    .content-register .asign{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .content-left{
+        
+        width: 450px;
+        height: 150px;
+        background-color: #fff;
+        padding: 15px;
+    }
+    
+    .content-left .detail{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .content-left .detail a{
+        text-decoration: none;
+        color: #009492;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+
+    .content{
+        width: 450px;
+        height: 580px;
+        background-color: #fff;
+        margin: 30px auto;
+        border-radius: 1px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    }
+    
+    input{
+        border: none;
+        width: 90%;
+    }
+    
+    input:focus{
+        border: none;
+        outline-style: none;   
+    }
+    
+    
+    
+    input[placeholder] {
+        color: #033131 !important;
+        font-size: 14px;
+        padding: 3px 3px;
+    }
+    
+    .temp{
+        padding: 5px 15px;
+    }
+    
+    .temp .lable{
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+    .content img{
+        width: 15px;
+    }
+    
+    .content .title-form .title h4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        font-size: 20px;
+        color: #000;
+        font-weight: bold;
+    }
+    
+    .temp select{
+        width: 97%;
+        color: #000;
+        max-width: 55ch;
+        border: 1px solid #ddd;
+        border-radius: 0.25em;
+        padding:  0px 5px;
+        font-size: 15px;
+        cursor: pointer;
+        line-height: 1.1;
+        background-color: rgb(243, 243, 243);
+        
+        }
+    
+    .content .input-1{
+        border-bottom: 1px solid #009492;
+        margin-top: 10px;
+        margin-right: 10px;
+        border-radius: 3px;
+    }
+    .content .input-1 svg{
+        width: 16px;
+    }
+    .content .input-2{
+        border-bottom: 1px solid #009492;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 3px;
+    }
+    .content .input-7{
+        border-bottom: 1px solid #009492;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 3px;
+    }
+    .content .input-2 svg{
+        width: 16px;
+    }
+    .content .input-3{
+        border-bottom: 1px solid #009492;
+        margin-top: 10px;
+        margin-right: 10px;
+        border-radius: 3px;
+    }
+    .content .input-3 svg{
+        width: 16px;
+    }
+    .content .input-4{
+        border-bottom: 1px solid #009492;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 3px;
+        
+    }
+    .content .input-4 svg{
+        width: 16px;
+    }
+    .content .input-5{
+        border-bottom: 1px solid #009492;
+        margin-top: 10px;
+        margin-right: 10px;
+        border-radius: 3px;
+    }
+    .content .input-5 svg{
+        width: 16px;
+    }
+    .content .input-6{
+        border-bottom: 1px solid #009492;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 3px;
+    }
+    .content .input-6 svg{
+        width: 16px;
+    }
+    
+    .content .check{
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+        padding: 15px;
+    }
+    .content .check h6{
+        line-height: 20px;
+        font-size: 14px;
+        margin-top: 11px;
+        margin-right: 10px;
+        color: #157347;
+    }
+    
+    .content .check input.ali{
+        border-color: #157347;
+        font-weight: bold;
+    }
+    
+    
+    .content button.coustom{
+        margin-top: 40px;
+    }
+    
+    .content .down{
+        display: flex;
+        align-items: center;
+    }
+    
+    .content .down h6{
+        margin-top: 11px;
+        margin-right: 10px;
+        padding: 15px;
+        color: #157347;
+    }
+    
+    .content .down a{
+        text-decoration: none;
+        font-size: 13px;
+        color: #157347 ;
+        font-weight: bold;
+    }
+}
+
+
+
+
+
+@media screen and (min-width:767px) and (max-width:990px){
+
+    .head .nav .register img{
+        width: 80px;
+        margin-top: 15px;
+        margin-right: 50px;
+        object-fit: cover;
+        cursor: pointer;
+    }
+
+
+
+
+    #section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .content-register{
+        display: flex;
+    }
+    
+
+    .content-register .asign{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .content-register h5{
+        text-align: center;
+        font-size: 25px;
+        color: #000;
+        font-weight: 700;
+        margin: 7px 15px;
+    }
+    
+    .content-register p{
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+        margin: 7px 15px;
+        padding: 10px;
+    }
+    
+    .content-register button{
+        background-color: #009498;
+        color: #fff;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+    
+    .content-register button:hover{
+        background-color: #068280;
+    }
+    .content-left{
+        width: 500px;
+        height: 150px;
+        background-color: #fff;
+        padding: 15px;
+    }
+    
+    .content-left .detail{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .content-left .detail a{
+        text-decoration: none;
+        color: #009492;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+
+
+    .content{
+        width: 500px;
+        height: 600px;
+        background-color: #fff;
+        margin: 40px auto;
+        border-radius: 1px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    }
+    
+    input{
+        border: none;
+        width: 90%;
+    }
+    
+    input:focus{
+        border: none;
+        outline-style: none;   
+    }
+    
+    
+    
+    input[placeholder] {
+        color: #033131 !important;
+        font-size: 14px;
+        padding: 3px 3px;
+    }
+    
+    .temp{
+        padding: 5px 15px;
+    }
+    
+    .temp .lable{
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+    .content img{
+        width: 15px;
+    }
+    
+    .content .title-form .title h4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        font-size: 20px;
+        color: #000;
+        font-weight: bold;
+    }
+    
+    .temp select{
+        width: 100%;
+        color: #000;
+        max-width: 57ch;
+        border: 1px solid #ddd;
+        border-radius: 0.25em;
+        padding:  0px 5px;
+        font-size: 15px;
+        cursor: pointer;
+        line-height: 1.1;
+        background-color: rgb(243, 243, 243);
+        
+        }
+    
+    .content .input-1{
+        border-bottom: 1px solid #009492;
+        margin-top: 10px;
+        margin-right: 10px;
+        border-radius: 3px;
+    }
+    .content .input-1 svg{
+        width: 18px;
+    }
+    .content .input-2{
+        border-bottom: 1px solid #009492;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 3px;
+    }
+    .content .input-2 svg{
+        width: 18px;
+    }
+    .content .input-7{
+        border-bottom: 1px solid #009492;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 3px;
+    }
+    .content .input-7 svg{
+        width: 18px;
+    }
+    .content .input-3{
+        border-bottom: 1px solid #009492;
+        margin-top: 10px;
+        margin-right: 10px;
+        border-radius: 3px;
+    }
+    .content .input-3 svg{
+        width: 18px;
+    }
+    .content .input-4{
+        border-bottom: 1px solid #009492;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 3px;
+        
+    }
+    .content .input-4 svg{
+        width: 18px;
+    }
+    .content .input-5{
+        border-bottom: 1px solid #009492;
+        margin-top: 10px;
+        margin-right: 10px;
+        border-radius: 3px;
+    }
+    .content .input-5 svg{
+        width: 18px;
+    }
+    .content .input-6{
+        border-bottom: 1px solid #009492;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 3px;
+    }
+    .content .input-6 svg{
+        width: 18px;
+    }
+    
+    
+    .content .check{
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+        padding: 15px;
+    }
+    .content .check h6{
+        font-size: 14px;
+        margin-top: 11px;
+        margin-right: 7px;
+        color: #157347;
+    }
+    
+    .content .check input.ali{
+        border-color: #157347;
+        font-weight: bold;
+    }
+    
+    
+    .content button.coustom{
+        margin-top: 40px;
+    }
+    
+    .content .down{
+        display: flex;
+        align-items: center;
+    }
+    
+    .content .down h6{
+        margin-top: 11px;
+        margin-right: 10px;
+        padding: 15px;
+        color: #157347;
+    }
+    
+    .content .down a{
+        text-decoration: none;
+        font-size: 13px;
+        color: #157347 ;
+        font-weight: bold;
+    }
+}
+
+
+@media screen and (min-width:990px) and (max-width:1200px){
+
+    #section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .content-register{
+        display: flex;
+    }
+
+    .content-register .asign{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+    }
+    
+    .content-register h5{
+        text-align: center;
+        font-size: 25px;
+        color: #000;
+        font-weight: 700;
+        margin: 7px 15px;
+    }
+    
+    .content-register p{
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+        margin: 7px 15px;
+        padding: 10px;
+    }
+    
+    .content-register button{
+        background-color: #009498;
+        color: #fff;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+    .content-register button:hover{
+        background-color: #057a78;
+    }
+    
+    .content-left{
+        width: 500px;
+        height: 150px;
+        background-color: #fff;
+        padding: 15px;
+    }
+    
+    .content-left .detail{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .content-left .detail a{
+        text-decoration: none;
+        color: #009492;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+
+
+
+    .content{
+        width: 500px;
+        height: 600px;
+        background-color: #fff;
+        margin: 90px 0 auto;
+        border-radius: 1px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    }
+    
+    input{
+        border: none;
+        width: 90%;
+    }
+    
+    input:focus{
+        border: none;
+        outline-style: none;   
+    }
+    
+    
+    
+    input[placeholder] {
+        color: #033131 !important;
+        font-size: 14px;
+        padding: 3px 3px;
+    }
+    
+    .temp{
+        padding: 5px 15px;
+    }
+    
+    .temp .lable{
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+    .content img{
+        width: 15px;
+    }
+    
+    .content .title-form .title h4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        font-size: 20px;
+        color: #000;
+        font-weight: bold;
+    }
+    
+    .temp select{
+        width: 97%;
+        color: #000;
+        max-width: 60ch;
+        border: 1px solid #ddd;
+        border-radius: 0.25em;
+        padding:  0px 5px;
+        font-size: 15px;
+        cursor: pointer;
+        line-height: 1.1;
+        background-color: rgb(243, 243, 243);
+        
+        }
+    
+    
+    .content .input-1{
+        border-bottom: 1px solid #009492;
+        margin-top: 10px;
+        margin-right: 10px;
+        border-radius: 3px;
+    }
+    
+    .content .input-2{
+        border-bottom: 1px solid #009492;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 3px;
+    }
+    .content .input-7{
+        border-bottom: 1px solid #009492;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 3px;
+    }
+    .content .input-3{
+        border-bottom: 1px solid #009492;
+        margin-top: 10px;
+        margin-right: 10px;
+        border-radius: 3px;
+    }
+    .content .input-4{
+        border-bottom: 1px solid #009492;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 3px;
+        
+    }
+    .content .input-5{
+        border-bottom: 1px solid #009492;
+        margin-top: 10px;
+        margin-right: 10px;
+        border-radius: 3px;
+    }
+    .content .input-6{
+        border-bottom: 1px solid #009492;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 3px;
+    }
+    
+    
+    .content .check{
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+        padding: 15px;
+    }
+    .content .check h6{
+        font-size: 14px;
+        margin-top: 11px;
+        margin-right: 7px;
+        color: #157347;
+    }
+    
+    .content .check input.ali{
+        border-color: #157347;
+        font-weight: bold;
+    }
+    
+    
+    .content button.coustom{
+        margin-top: 40px;
+    }
+    
+    .content .down{
+        display: flex;
+        align-items: center;
+    }
+    
+    .content .down h6{
+        margin-top: 11px;
+        margin-right: 10px;
+        padding: 15px;
+        color: #157347;
+    }
+    
+    .content .down a{
+        text-decoration: none;
+        font-size: 13px;
+        color: #157347 ;
+        font-weight: bold;
+    }
+}

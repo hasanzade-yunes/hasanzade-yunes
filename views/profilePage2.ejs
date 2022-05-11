@@ -1,0 +1,238 @@
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/profilePage2.css">
+    <title>profile page 2</title>
+</head>
+<body>
+    <header>
+        <div class="navbar headOrder">
+            <div class="qoute">
+                <button class="qouteBtn">سفارش جدید</button>
+            </div>
+           
+           
+            <div class="profile">
+              
+                <div class="flex">
+                
+                    <div class="down">
+                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1cw4hi4 svgOne" focusable="false" aria-hidden="true" viewBox="0 0 16 21" stroke-width="1"><path d="M15.373 12.59a2.779 2.779 0 0 0-1.467-2.186l-3.552-1.88h-.056a4.584 4.584 0 0 0 2.245-3.537C12.768 2.393 10.574 0 7.971 0a4.59 4.59 0 0 0-4.589 4.589c0 1.681.914 3.135 2.263 3.935h-.057l-3.552 1.88A2.779 2.779 0 0 0 .57 12.59l-.562 5.735a1.51 1.51 0 0 0 1.107 1.599 24.5 24.5 0 0 0 1.243.308.489.489 0 0 0 .591-.425l.528-4.904a.5.5 0 1 1 .994.11s-.414 3.691-.569 5.023a.494.494 0 0 0 .42.545c2.422.348 4.88.348 7.302 0a.495.495 0 0 0 .42-.545c-.157-1.332-.57-5.023-.57-5.023a.5.5 0 0 1 .993-.11l.53 4.904a.489.489 0 0 0 .59.425c.416-.092.83-.194 1.242-.308a1.51 1.51 0 0 0 1.107-1.599l-.562-5.735Z" fill="currentColor" fill-rule="evenodd"></path></svg>
+                        <button>نام پروفایل</button>
+                        <svg class="MuiSvgIcon-root arrow" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg>
+                    </div>
+                
+                </div>
+                <div id="drop" class="drop">
+                    <ul>
+                        <li><a href="/profile">حساب کاربری</a></li>
+                        <li><a href="/logout"> خروج</a></li>
+                    </ul>
+                </div>
+            </div>   
+            <div class="logo">
+             <img src="img/Bsazim.png " alt="">
+           </div>
+        </div>
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+        <div id="humberger" class="humberger">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              
+              <img id="clickRespons" src="img/Hamburger.png" alt="">
+              <div class="collapse navbar-collapse menu" id="navbarNav">
+                <ul class="navbar-nav menu-down">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">میز کار</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">تاریخچه سفارشات</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+
+
+    </header>
+        <section id="profile" class="mt-5 mx-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 coustom-right">
+                        <div class="titleOne">
+                            <h4>اطلاعات شخصی</h4>
+                        </div>
+                        <div class="right">
+                              <div>
+                                <label for="fname" class="form-label lableCoustom">نام و نام خانوادگی </label>
+                                <input type="email" class="form-control inputCoustom" id="fname" value="سجاد تقی لو" placeholder=""> 
+                                <span class="form-text  validate" id="usererror"></span>
+                              </div>
+                              <div class="mt-4">
+                                <label for="companyName" class="form-label lableCoustommm">نام شرکت</label>
+                                <input type="email" class="form-control inputCoustom" id="companyName" value="ایده پردازان ناظر اول کیفیت" placeholder="">
+                                <span class="form-text  validate" id="companyerror"></span>
+                              </div>
+                             
+                            
+                              <div class="center">
+                                <div class="d-grid gap-2">
+                                    <button id="zakhireOne" class="btn zakhireOne" type="submit">ذخیره تغییرات</button>
+                                    
+                                  </div>
+                              </div>
+
+                              <div class="left">
+                                  <div class="titleThree">
+                                      <h4>اطلاعات حقوقی</h4>
+                                  </div>
+                                  <div>
+                                    <label for="sazmanName" class="form-label lableCoustom" id="lableCoustom">نام سازمان *</label>
+                                    <input type="email" class="form-control inputCoustom" id="sazmanName" placeholder="">
+                                    <span class="form-text validate" id="sazmanerror"></span>
+                                  </div>
+                                  <div>
+                                    <label for="email" class="form-label lableCoustom">شناسه ملی</label>
+                                    <input type="email" class="form-control inputCoustom" id="email" placeholder="">
+                                    <span class="form-text validate"></span>
+                                  </div>
+                                  <div>
+                                    <label for="codeEghtesadi" class="form-label lableCoustom" id="lableCoustomCode">کد اقتصادی *</label>
+                                    <input type="email" class="form-control inputCoustom" id="codeEghtesadi" placeholder="">
+                                    <span class="form-text validate" id="code"></span>
+                                  </div>
+                                  <div>
+                                    <label for="sabet" class="form-label lableCoustom">تلفن ثابت</label>
+                                    <input type="email" class="form-control inputCoustom" id="sabet" placeholder="">
+                                    <span class="form-text validate"></span>
+                                  </div>
+                                  <div>
+                                    <label for="sherkat" class="form-label lableCoustom">آدرس شرکت</label>
+                                    <input type="email" class="form-control inputCoustom" id="sherkat" placeholder="">
+                                    <span class="form-text validate"></span>
+                                  </div>
+                                  <div class="d-grid gap-2">
+                                    <button id="zakhireTow" class="btn zakhireTow" type="button">ذخیره تغییرات</button>
+                                    
+                                  </div>
+                              </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    <div class="col-lg-6">
+
+                        <div class="address">
+                            <div class="titleTow">
+                                <h4>تغییر ایمیل یا شماره موبایل</h4>
+                               
+                            </div>
+                            <div class="one">
+                                <form>
+                                    
+                                    <div>
+                                        <label for="inputCoustomTow" class="form-label lableCoustomOne">ایمیل</label>
+                                        <input type="email" class="form-control inputCoustomTow" id="inputCoustomTow" placeholder="sa.taghiloo@gmail.com">
+                                        
+                                      </div>
+                                    <div class="mb-3 mt-4">
+                                        <label for="mobile" class="form-label lableCoustomOne">موبایل</label>
+                                        <input type="text" class="form-control inputCoustomTow" id="mobile" placeholder="09129570434">
+                                        
+                                      </div>
+                                      <div class="mb-4 mt-4">
+                                        <label for="pass" class="form-label lableCoustomOne">کلمه عبور فعلی</label>
+                                        <input type="password" class="form-control inputCoustomTow" id="pass" placeholder="">
+                                        <span class="form-text validate" id="passwordReturn"></span>
+                                      </div>
+                                      
+                                    
+                                  </form>
+                            </div>
+
+                            <div class="oneDown">
+                                <div class="d-grid gap-2">
+                                    <button id="zakhireFive" class="btn" type="button">ذخیره تغییرات</button>
+                                    
+                                  </div>
+                            </div>
+
+                            <div class="titleFour">
+                                <h4>تغییر کلمه عبور</h4>
+                               
+                            </div>
+                            <div class="tow">
+                                <form>
+                                    
+                                    <div class="mb-3 mt-4">
+                                        <label for="exampleInputEmail1" class="form-label lableCoustomOne">کلمه عبور فعلی</label>
+                                        <input type="password" class="form-control inputCoustomTow" id="currentPass" placeholder="">
+                                        <span class="form-text validate" id="currentpasserror"></span>
+                                      </div>
+                                    <div class="mb-3 mt-4">
+                                        <label for="exampleInputEmail1" class="form-label lableCoustomOne">کلمه عبور جدید</label>
+                                        <input type="password" class="form-control inputCoustomTowww" id="newpass" placeholder="">
+                                        <span class="form-text validate" id="newpasserror"></span>
+                                      </div>
+                                    <div class="mb-3 mt-4">
+                                        <label for="exampleInputEmail1" class="form-label lableCoustomOne">تکرار کلمه عبور جدید</label>
+                                        <input type="password" class="form-control inputCoustomTowwwo" id="newpassReturn" placeholder="">
+                                        <span class="form-text validate" id="newpasserrorreturn"></span>
+                                      </div>
+                                      
+                                      
+                                    </form>
+                                </div>
+                                
+                                <div class="oneDown">
+                                  <div class="d-grid gap-2">
+                                      <button id="zakhireFour" class="btn" type="button">ذخیره تغییرات</button>
+                                      
+                                    </div>
+                              </div>
+
+                           
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+       
+    
+<script src="js/all.min.js"></script>
+<script src="js/profilePage2.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,1696 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 180vh;
+    background-color: rgb(255, 250, 250);
+    font-family: 'IRANSans';
+    background-color: #FAFAFA;
+}
+
+
+
+.humberger img{
+    display: none;
+}
+
+
+
+div.headOrder{
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 100%;
+    height: 80px;
+    background-color: #e1dede;
+}
+
+.headOrder .logo{
+    display: flex;
+
+
+}
+.headOrder .logo img{
+
+    width: 70px;
+    margin-right: 20px;
+    margin-top: 10px;
+    object-fit: cover;
+}
+
+
+
+.profile{
+    display: flex;
+    position: absolute;
+    right: 200px;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.profile svg{
+    width: 20px;
+}
+.profile .flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.profile .flex .down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    margin-right: -40px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    
+}
+.profile .flex .down svg{
+    margin-left: 5px;
+    padding: 10px;   
+    width: 40px;
+}
+.profile .flex .down .svgOne{
+    margin-left: 10px;
+    padding:6px;
+    width: 25px;
+    height: 25px;
+    background-color: #F9423A;
+    color: #fff;
+}
+.profile .flex svg{
+    width: 25px;
+    background-color: #e1dede;
+    padding: 5px;
+    border-radius: 100%;
+}
+
+.profile .flex .down button{
+    color: #000;
+    background-color: #e1dede;
+    border: none;
+    font-size: 18px;
+}
+.profile .drop{
+    display: none;
+    width: 180px;
+    position: absolute;
+    background-color: #e1dede;
+    top: 55px;
+    right: 10px;
+}
+
+
+
+.profile .drop ul li{
+    list-style: none;
+}
+/* .profile .drop ul li button{
+    width: 100%;
+    margin-top: 10px;
+    margin-right: 15px;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    color: #000;
+    font-size: 15px;
+    background-color: #009492;
+} */
+
+.profile .drop ul li a{
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    margin-top: 10px;
+    margin-right: 15px;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    color: #000;
+    font-size: 15px;
+    background-color: #009492;
+}
+
+
+
+.headOrder .qoute{
+    position: absolute;
+    left: 0;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.headOrder .qoute button{
+    border: none;
+    background-color: #009492;
+    color: #fff;
+    border-radius: 3px;
+    padding: 8px;
+    font-weight: bold;
+}
+
+/**********************************section**********************************/
+.coustom-right .right .validate{
+    font-size: 10px;
+    color: red;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: 'IRANSans';
+    margin-top: 15px;
+}
+.tow .validate{
+    font-size: 10px;
+    color: red;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: 'IRANSans';
+    margin-top: 15px;
+    min-height:20px !important;
+
+}
+
+
+
+
+
+input:focus{
+    outline: none;
+    border: none;
+    box-shadow: none;
+    border-radius: 0%;
+}
+
+
+
+#profile{
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 8px;;
+}
+
+.coustom-right{
+    border-left: 2px solid #ddd;
+}
+
+.coustom-right .titleOne{
+    border-bottom: 2px solid #b5b3b3;
+    margin: 20px 0;
+}
+
+.coustom-right .titleOne h4{
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 7px;
+}
+
+.coustom-right .inputCoustom{
+    border: none;
+    border-bottom: 1px solid #adabab;
+    font-size: 12px;
+    color: #000;
+    font-weight: bold;
+    margin-top: 2px;
+    padding: 7px;
+    border-radius: 0%;
+}
+
+
+
+
+.coustom-right .inputCoustom::placeholder{
+    color: #000;
+}
+
+.coustom-right .inputCoustom:hover{
+    
+    border-bottom: 1px solid #000;
+    
+    
+}
+
+
+
+
+.address .inputCoustomTow:hover{
+    
+    border-bottom: 1px solid #000;
+    border: none;
+    
+}
+
+
+
+.coustom-right .inputCoustom:focus{
+    outline: none;
+    border: none;
+    box-shadow: none;
+    border-radius: 0%;
+    border-bottom: 1px solid #adabab;
+}
+
+
+
+
+
+.coustom-right .lableCoustom{
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    color: rgb(117, 117, 117);
+    padding: 10px;
+}
+
+
+.address .inputCoustomTow{
+    color: #000;
+    border: none;
+    border-bottom: 1px solid #adabab;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 7px;
+    border-radius: 0%;
+}
+.address .inputCoustomTow:hover{
+    border-bottom: 1px solid #000;
+}
+
+.address .lableCoustomOne{
+    border: none;
+    font-size: 12px;
+    
+    padding: 7px;
+    margin-bottom: -10px;
+}
+
+
+.address .inputCoustomTow::placeholder{
+    color: #000;
+}
+
+
+.address .inputCoustomTow:focus{
+    outline: none;
+    border: none;
+    box-shadow: none;
+    border-radius: 0%;
+    border-bottom: 1px solid #adabab;
+}
+
+.address .lableCoustomOne{
+    font-size: 12px;
+    color: rgb(117, 117, 117);
+    padding: 10px;
+    margin-bottom: -10px;
+}
+
+
+.address .titleTow{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #b5b3b3;
+    margin: 22px 0;
+}
+
+.address .titleTow h4{
+    font-size: 20px;
+    margin-bottom: 7px;
+    padding: 7px;
+}
+
+
+.center button{
+    background-color: #1e9ea2;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+
+
+.oneDown button{
+    background-color: #1e9ea2;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.center .zakhireOne:click{
+    box-shadow: none;
+    outline: none;
+}
+
+
+.address input{
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.left .titleThree{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #b5b3b3;
+    padding: 7px;
+}
+
+.left .titleThree h4{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.left button{
+    background-color: #009492;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+
+.address .titleFour{
+    border-bottom: 2px solid #b5b3b3;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.tow .lableCoustomOne{
+    margin-bottom: -20px;
+}
+
+
+.oneDown button{
+    background-color: #009492;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+
+
+/************************************************************************responsive************************/
+@media screen and (max-width:530px){
+    
+    .humberger{
+        position: relative;
+        display: flex;
+    }
+
+
+
+    .humberger img{
+        top: -48px;
+        right: 10px;
+        position: absolute;
+        display: flex;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        display: flex;
+        
+    }
+    .humberger .menu{
+        width: 230px;
+        height: 89vh;
+        background-color: #cfcaca;
+        display: none;  
+        z-index: 1000;
+        position: absolute;
+        top: 0px;
+        right: 0;
+        
+        
+    }
+
+    .humberger .menu button{
+        position: absolute;
+        width: 90%;
+        margin-top: 5px;
+        margin-right: 10px;
+        background-color: #009492;
+        color: #fff;
+        font-size: 16px;
+        padding: 5px;
+        border-radius: 3px;
+        border: none;
+        top: 80vh;
+    }
+
+    .humberger .menu ul{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .humberger .menu ul li{
+        width: 100%;
+        list-style: none;
+       margin: 5px 5px;
+    }
+
+    .humberger .menu ul li a{
+        text-decoration: none;
+        color: #000;
+        font-size: 14px;
+        padding: 5px;
+    }
+
+
+    div.headOrder{
+        position: relative;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        align-items: flex-start;
+        width: 100%;
+        height: 80px;
+        background-color: #e1dede;
+    }
+    
+    .headOrder .logo{
+        display: flex;
+        position: relative;
+    
+    }
+    .headOrder .logo img{
+        position: absolute;
+        right: 330px;
+        width: 60px;
+        margin-right: 20px;
+        margin-top: 10px;
+        object-fit: cover;
+    }
+    
+    
+    
+    .profile{
+        display: flex;
+        position: absolute;
+        right: 80px;
+        flex-direction: column;
+        justify-content: flex-end;
+        
+    }
+    .profile svg{
+        width: 20px;
+    }
+    .profile .flex{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .profile .flex .down {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 5px;
+        padding: 10px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        background-color: none;
+        
+    }
+    .profile .flex .down svg{
+        margin-left: 5px;
+        padding: 10px;   
+        width: 40px;
+    }
+    .profile .flex .down .svgOne{
+        margin-left: 10px;
+        padding:4px;
+        width: 20px;
+        height: 20px;
+        background-color: #F9423A;
+        color: #fff;
+    }
+    .profile .flex svg{
+        width: 25px;
+        background-color: #e1dede;
+        padding: 5px;
+        border-radius: 100%;
+    }
+    
+    .profile .flex .down button{
+        color: #000;
+        background-color: #e1dede;
+        border: none;
+        font-size: 14px;
+    }
+    .profile .drop{
+        display: none;
+        width: 140px;
+        position: absolute;
+        background-color: #e1dede;
+        top: 55px;
+        right: 10px;
+    }
+    
+    
+    
+    .profile .drop ul li{
+        list-style: none;
+    }
+    .profile .drop ul li button{
+        width: 100%;
+        margin-top: 10px;
+        margin-right: 15px;
+        padding: 5px;
+        border: none;
+        border-radius: 3px;
+        color: #000;
+        font-size: 13px;
+        
+    }
+    
+    
+    
+    .headOrder .qoute{
+        display: none;
+        position: absolute;
+        left: 0;
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+    
+    .headOrder .qoute button{
+        border: none;
+        background-color: #009492;
+        color: #fff;
+        border-radius: 3px;
+        padding: 8px;
+        font-weight: bold;
+    }
+    
+
+
+
+
+    .coustom-right{
+        border: none;
+        z-index: 1;
+        position: relative;
+    }
+
+
+    .coustom-right .right .validate{
+        font-size: 10px;
+        color: red;
+        font-weight: bold;
+        letter-spacing: 1px;
+        font-family: 'IRANSans';
+        margin-top: 15px;
+    }
+    .tow .validate{
+        font-size: 10px;
+        color: red;
+        font-weight: bold;
+        letter-spacing: 1px;
+        font-family: 'IRANSans';
+        margin-top: 15px;
+    }
+    
+    
+    
+    
+    
+    input:focus{
+        outline: none;
+        border: none;
+        box-shadow: none;
+        border-radius: 0%;
+    }
+    
+    
+    
+    #profile{
+        
+        padding: 15px;
+        border: none;
+        border-radius: 5px;
+        background-color: #FFFFFF;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 8px;;
+    }
+    
+   
+    
+    .coustom-right .titleOne{
+        border-bottom: 2px solid #b5b3b3;
+        margin: 20px 0;
+    }
+    
+    .coustom-right .titleOne h4{
+        margin-bottom: 10px;
+        font-size: 16px;
+        padding: 7px;
+    }
+    
+    .coustom-right .inputCoustom{
+        border: none;
+        border-bottom: 1px solid #adabab;
+        font-size: 12px;
+        color: #000;
+        font-weight: bold;
+        margin-top: 2px;
+        padding: 7px;
+        border-radius: 0%;
+    }
+    
+    
+    
+    
+    .coustom-right .inputCoustom::placeholder{
+        color: #000;
+    }
+    
+    .coustom-right .inputCoustom:hover{
+        
+        border-bottom: 1px solid #000;
+        
+        
+    }
+    
+    
+    
+    
+    .address .inputCoustomTow:hover{
+        
+        border-bottom: 1px solid #000;
+        border: none;
+        
+    }
+    
+    
+    
+    .coustom-right .inputCoustom:focus{
+        outline: none;
+        border: none;
+        box-shadow: none;
+        border-radius: 0%;
+        border-bottom: 1px solid #adabab;
+    }
+    
+    
+    
+    
+    
+    .coustom-right .lableCoustom{
+        font-size: 12px;
+        margin-top: 10px;
+        margin-bottom: -10px;
+        color: rgb(117, 117, 117);
+        padding: 10px;
+    }
+    
+    
+    .address .inputCoustomTow{
+        color: #000;
+        border: none;
+        border-bottom: 1px solid #adabab;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 7px;
+        border-radius: 0%;
+    }
+    .address .inputCoustomTow:hover{
+        border-bottom: 1px solid #000;
+    }
+    
+    .address .lableCoustomOne{
+        border: none;
+        font-size: 12px;
+        
+        padding: 7px;
+        margin-bottom: -10px;
+    }
+    
+    
+    .address .inputCoustomTow::placeholder{
+        color: #000;
+    }
+    
+    
+    .address .inputCoustomTow:focus{
+        outline: none;
+        border: none;
+        box-shadow: none;
+        border-radius: 0%;
+        border-bottom: 1px solid #adabab;
+    }
+    
+    .address .lableCoustomOne{
+        font-size: 12px;
+        color: rgb(117, 117, 117);
+        padding: 10px;
+        margin-bottom: -10px;
+    }
+    
+    
+    .address .titleTow{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 2px solid #b5b3b3;
+        margin: 22px 0;
+    }
+    
+    .address .titleTow h4{
+        font-size: 16px;
+        margin-bottom: 7px;
+        padding: 7px;
+    }
+    
+    
+    .center button{
+        background-color: #1e9ea2;
+        color: #fff;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    
+    .oneDown button{
+        background-color: #009492;
+        color: #fff;
+        font-weight: bold;
+    }
+    
+    
+    
+    .address input{
+        margin-top: 10px;
+        padding: 5px;
+    }
+    
+    .left .titleThree{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-bottom: 2px solid #b5b3b3;
+        padding: 7px;
+    }
+    
+    .left .titleThree h4{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    
+    .left button{
+        background-color: #009492;
+        color: #fff;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    
+    
+    .address .titleFour{
+        border-bottom: 2px solid #b5b3b3;
+        margin-top: 15px;
+        padding: 10px;
+    }
+
+    .address .titleFour h4{
+        font-size: 16px;
+    }
+    
+    .tow .lableCoustomOne{
+        margin-bottom: -20px;
+    }
+
+
+}
+
+
+
+@media screen and (min-width:530px) and (max-width:760px){
+   
+    .humberger{
+        position: relative;
+        display: flex;
+    }
+
+
+
+    .humberger img{
+        top: -48px;
+        right: 10px;
+        position: absolute;
+        display: flex;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        display: flex;
+        
+    }
+    .humberger .menu{
+        width: 230px;
+        height: 89vh;
+        background-color: #cfcaca;
+        display: none;  
+        z-index: 1000;
+        position: absolute;
+        top: 0px;
+        right: 0;
+        
+        
+    }
+
+    .humberger .menu button{
+        position: absolute;
+        width: 90%;
+        margin-top: 5px;
+        margin-right: 10px;
+        background-color: #009492;
+        color: #fff;
+        font-size: 16px;
+        padding: 5px;
+        border-radius: 3px;
+        border: none;
+        top: 80vh;
+    }
+
+    .humberger .menu ul{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .humberger .menu ul li{
+        width: 100%;
+        list-style: none;
+       margin: 5px 5px;
+    }
+
+    .humberger .menu ul li a{
+        text-decoration: none;
+        color: #000;
+        font-size: 14px;
+        padding: 5px;
+    }
+
+
+    div.headOrder{
+        position: relative;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        align-items: flex-start;
+        width: 100%;
+        height: 80px;
+        background-color: #e1dede;
+    }
+    
+    .headOrder .logo{
+        display: flex;
+        position: relative;
+    
+    }
+    .headOrder .logo img{
+       position: absolute;
+       right: 600px;
+        width: 70px;
+        margin-right: 20px;
+        margin-top: 10px;
+        object-fit: cover;
+    }
+    
+    
+    
+    .profile{
+        display: flex;
+        position: absolute;
+        right: 80px;
+        flex-direction: column;
+        justify-content: flex-end;
+        
+    }
+    .profile svg{
+        width: 20px;
+    }
+    .profile .flex{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .profile .flex .down {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 5px;
+        padding: 10px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        background-color: none;
+        
+    }
+    .profile .flex .down svg{
+        margin-left: 5px;
+        padding: 10px;   
+        width: 40px;
+    }
+    .profile .flex .down .svgOne{
+        margin-left: 10px;
+        padding:4px;
+        width: 20px;
+        height: 20px;
+        background-color: #F9423A;
+        color: #fff;
+    }
+    .profile .flex svg{
+        width: 25px;
+        background-color: #e1dede;
+        padding: 5px;
+        border-radius: 100%;
+    }
+    
+    .profile .flex .down button{
+        color: #000;
+        background-color: #e1dede;
+        border: none;
+        font-size: 14px;
+    }
+    .profile .drop{
+        display: none;
+        width: 140px;
+        position: absolute;
+        background-color: #e1dede;
+        top: 55px;
+        right: 10px;
+    }
+    
+    
+    
+    .profile .drop ul li{
+        list-style: none;
+    }
+    .profile .drop ul li button{
+        width: 100%;
+        margin-top: 10px;
+        margin-right: 15px;
+        padding: 5px;
+        border: none;
+        border-radius: 3px;
+        color: #000;
+        font-size: 13px;
+        
+    }
+    
+    
+    
+    .headOrder .qoute{
+        display: none;
+        position: absolute;
+        left: 0;
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+    
+    .headOrder .qoute button{
+        border: none;
+        background-color: #009492;
+        color: #fff;
+        border-radius: 3px;
+        padding: 8px;
+        font-weight: bold;
+    }
+    
+
+
+
+
+    .coustom-right{
+        border: none;
+        z-index: 1;
+        position: relative;
+    }
+
+
+    .coustom-right .right .validate{
+        font-size: 10px;
+        color: red;
+        font-weight: bold;
+        letter-spacing: 1px;
+        font-family: 'IRANSans';
+        margin-top: 15px;
+    }
+    .tow .validate{
+        font-size: 10px;
+        color: red;
+        font-weight: bold;
+        letter-spacing: 1px;
+        font-family: 'IRANSans';
+        margin-top: 15px;
+    }
+    
+    
+    
+    
+    
+    input:focus{
+        outline: none;
+        border: none;
+        box-shadow: none;
+        border-radius: 0%;
+    }
+    
+    
+    
+    #profile{
+        
+        padding: 15px;
+        border: none;
+        border-radius: 5px;
+        background-color: #FFFFFF;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 8px;;
+    }
+    
+   
+    
+    .coustom-right .titleOne{
+        border-bottom: 2px solid #b5b3b3;
+        margin: 20px 0;
+    }
+    
+    .coustom-right .titleOne h4{
+        margin-bottom: 10px;
+        font-size: 16px;
+        padding: 7px;
+    }
+    
+    .coustom-right .inputCoustom{
+        border: none;
+        border-bottom: 1px solid #adabab;
+        font-size: 12px;
+        color: #000;
+        font-weight: bold;
+        margin-top: 2px;
+        padding: 7px;
+        border-radius: 0%;
+    }
+    
+    
+    
+    
+    .coustom-right .inputCoustom::placeholder{
+        color: #000;
+    }
+    
+    .coustom-right .inputCoustom:hover{
+        
+        border-bottom: 1px solid #000;
+        
+        
+    }
+    
+    
+    
+    
+    .address .inputCoustomTow:hover{
+        
+        border-bottom: 1px solid #000;
+        border: none;
+        
+    }
+    
+    
+    
+    .coustom-right .inputCoustom:focus{
+        outline: none;
+        border: none;
+        box-shadow: none;
+        border-radius: 0%;
+        border-bottom: 1px solid #adabab;
+    }
+    
+    
+    
+    
+    
+    .coustom-right .lableCoustom{
+        font-size: 12px;
+        margin-top: 10px;
+        margin-bottom: -10px;
+        color: rgb(117, 117, 117);
+        padding: 10px;
+    }
+    
+    
+    .address .inputCoustomTow{
+        color: #000;
+        border: none;
+        border-bottom: 1px solid #adabab;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 7px;
+        border-radius: 0%;
+    }
+    .address .inputCoustomTow:hover{
+        border-bottom: 1px solid #000;
+    }
+    
+    .address .lableCoustomOne{
+        border: none;
+        font-size: 12px;
+        
+        padding: 7px;
+        margin-bottom: -10px;
+    }
+    
+    
+    .address .inputCoustomTow::placeholder{
+        color: #000;
+    }
+    
+    
+    .address .inputCoustomTow:focus{
+        outline: none;
+        border: none;
+        box-shadow: none;
+        border-radius: 0%;
+        border-bottom: 1px solid #adabab;
+    }
+    
+    .address .lableCoustomOne{
+        font-size: 12px;
+        color: rgb(117, 117, 117);
+        padding: 10px;
+        margin-bottom: -10px;
+    }
+    
+    
+    .address .titleTow{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 2px solid #b5b3b3;
+        margin: 22px 0;
+    }
+    
+    .address .titleTow h4{
+        font-size: 16px;
+        margin-bottom: 7px;
+        padding: 7px;
+    }
+    
+    
+    .center button{
+        background-color: #1e9ea2;
+        color: #fff;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    
+    .oneDown button{
+        background-color: #009492;
+        color: #fff;
+        font-weight: bold;
+    }
+    
+    
+    
+    .address input{
+        margin-top: 10px;
+        padding: 5px;
+    }
+    
+    .left .titleThree{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-bottom: 2px solid #b5b3b3;
+        padding: 7px;
+    }
+    
+    .left .titleThree h4{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    
+    .left button{
+        background-color: #009492;
+        color: #fff;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    
+    
+    .address .titleFour{
+        border-bottom: 2px solid #b5b3b3;
+        margin-top: 15px;
+        padding: 10px;
+    }
+
+    .address .titleFour h4{
+        font-size: 16px;
+    }
+    
+    .tow .lableCoustomOne{
+        margin-bottom: -20px;
+    }
+   }
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:760px) and (max-width:991px){
+    
+    .humberger{
+        position: relative;
+        display: flex;
+    }
+
+
+
+    .humberger img{
+        top: -48px;
+        right: 10px;
+        position: absolute;
+        display: flex;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        display: flex;
+        
+    }
+    .humberger .menu{
+        width: 230px;
+        height: 89vh;
+        background-color: #cfcaca;
+        display: none;  
+        z-index: 1000;
+        right: 0px;
+        top: 0px;
+        position: absolute;
+        transition: 2s;
+
+        
+    }
+
+    .humberger .menu button{
+        position: absolute;
+        width: 90%;
+        margin-top: 5px;
+        margin-right: 10px;
+        background-color: #009492;
+        color: #fff;
+        font-size: 16px;
+        padding: 5px;
+        border-radius: 3px;
+        border: none;
+        top: 80vh;
+    }
+
+    .humberger .menu ul{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .humberger .menu ul li{
+        width: 100%;
+        list-style: none;
+       margin: 5px 5px;
+    }
+
+    .humberger .menu ul li a{
+        text-decoration: none;
+        color: #000;
+        font-size: 14px;
+        padding: 5px;
+    }
+
+
+
+
+    div.headOrder{
+        position: relative;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        align-items: flex-start;
+        width: 100%;
+        height: 80px;
+        background-color: #e1dede;
+    }
+    
+    .headOrder .logo{
+        display: flex;
+    
+    
+    }
+    .headOrder .logo img{
+        position: absolute;
+        left: 10px;
+        width: 70px;
+        margin-right: 20px;
+        margin-top: 10px;
+        object-fit: cover;
+    }
+    
+    
+    
+    .profile{
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        justify-content: flex-end;
+        right: 40px;
+        top: 2px;
+    }
+    .profile svg{
+        width: 20px;
+    }
+    .profile .flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .profile .flex .down {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: none;
+        margin: 10px;
+        padding: 10px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        
+    }
+    .profile .flex .down svg{
+        margin-left: 5px;
+    }
+    .profile .flex svg{
+        width: 25px;
+        padding: 5px;
+        border-radius: 100%;
+    }
+    
+    .profile .flex .down button{
+        color: #000;
+        background-color: #e1dede;
+        border: none;
+    }
+    
+    .profile .drop{
+        display: none;
+        width: 180px;
+        position: absolute;
+        top: 55px;
+        right: 10px;
+    }
+    
+    
+    
+    .profile .drop ul li{
+        list-style: none;
+    }
+    .profile .drop ul li button{
+        width: 100%;
+        margin-top: 10px;
+        margin-right: 15px;
+        padding: 5px;
+        border: none;
+        border-radius: 3px;
+        background-color: #009492;
+        color: #fff;
+        font-size: 15px;
+    }
+    
+    
+    
+    .headOrder .qoute{
+        position: absolute;
+        left: 0;
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+    
+    .headOrder .qoute button{
+        display: none;
+        border: none;
+        background-color: #009492;
+        color: #fff;
+        border-radius: 3px;
+        padding: 8px;
+        font-weight: bold;
+    }
+    
+
+
+
+
+    .coustom-right{
+        border: none;
+        z-index: 1;
+        position: relative;
+    }
+
+
+    .coustom-right .right .validate{
+        font-size: 10px;
+        color: red;
+        font-weight: bold;
+        letter-spacing: 1px;
+        font-family: 'IRANSans';
+        margin-top: 15px;
+    }
+    .tow .validate{
+        font-size: 10px;
+        color: red;
+        font-weight: bold;
+        letter-spacing: 1px;
+        font-family: 'IRANSans';
+        margin-top: 15px;
+    }
+    
+    
+    
+    
+    
+    input:focus{
+        outline: none;
+        border: none;
+        box-shadow: none;
+        border-radius: 0%;
+    }
+    
+    
+    
+    #profile{
+        
+        padding: 15px;
+        border: none;
+        border-radius: 5px;
+        background-color: #FFFFFF;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 8px;;
+    }
+    
+   
+    
+    .coustom-right .titleOne{
+        border-bottom: 2px solid #b5b3b3;
+        margin: 20px 0;
+    }
+    
+    .coustom-right .titleOne h4{
+        margin-bottom: 10px;
+        font-size: 16px;
+        padding: 7px;
+    }
+    
+    .coustom-right .inputCoustom{
+        border: none;
+        border-bottom: 1px solid #adabab;
+        font-size: 12px;
+        color: #000;
+        font-weight: bold;
+        margin-top: 2px;
+        padding: 7px;
+        border-radius: 0%;
+    }
+    
+    
+    
+    
+    .coustom-right .inputCoustom::placeholder{
+        color: #000;
+    }
+    
+    .coustom-right .inputCoustom:hover{
+        
+        border-bottom: 1px solid #000;
+        
+        
+    }
+    
+    
+    
+    
+    .address .inputCoustomTow:hover{
+        
+        border-bottom: 1px solid #000;
+        border: none;
+        
+    }
+    
+    
+    
+    .coustom-right .inputCoustom:focus{
+        outline: none;
+        border: none;
+        box-shadow: none;
+        border-radius: 0%;
+        border-bottom: 1px solid #adabab;
+    }
+    
+    
+    
+    
+    
+    .coustom-right .lableCoustom{
+        font-size: 12px;
+        margin-top: 10px;
+        margin-bottom: -10px;
+        color: rgb(117, 117, 117);
+        padding: 10px;
+    }
+    
+    
+    .address .inputCoustomTow{
+        color: #000;
+        border: none;
+        border-bottom: 1px solid #adabab;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 7px;
+        border-radius: 0%;
+    }
+    .address .inputCoustomTow:hover{
+        border-bottom: 1px solid #000;
+    }
+    
+    .address .lableCoustomOne{
+        border: none;
+        font-size: 12px;
+        
+        padding: 7px;
+        margin-bottom: -10px;
+    }
+    
+    
+    .address .inputCoustomTow::placeholder{
+        color: #000;
+    }
+    
+    
+    .address .inputCoustomTow:focus{
+        outline: none;
+        border: none;
+        box-shadow: none;
+        border-radius: 0%;
+        border-bottom: 1px solid #adabab;
+    }
+    
+    .address .lableCoustomOne{
+        font-size: 12px;
+        color: rgb(117, 117, 117);
+        padding: 10px;
+        margin-bottom: -10px;
+    }
+    
+    
+    .address .titleTow{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 2px solid #b5b3b3;
+        margin: 22px 0;
+    }
+    
+    .address .titleTow h4{
+        font-size: 16px;
+        margin-bottom: 7px;
+        padding: 7px;
+    }
+    
+    
+    .center button{
+        background-color: #1e9ea2;
+        color: #fff;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    
+    .oneDown button{
+        background-color: #009492;
+        color: #fff;
+        font-weight: bold;
+    }
+    
+    
+    
+    .address input{
+        margin-top: 10px;
+        padding: 5px;
+    }
+    
+    .left .titleThree{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-bottom: 2px solid #b5b3b3;
+        padding: 7px;
+    }
+    
+    .left .titleThree h4{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    
+    .left button{
+        background-color: #009492;
+        color: #fff;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    
+    
+    .address .titleFour{
+        border-bottom: 2px solid #b5b3b3;
+        margin-top: 15px;
+        padding: 10px;
+    }
+
+    .address .titleFour h4{
+        font-size: 16px;
+    }
+    
+    .tow .lableCoustomOne{
+        margin-bottom: -20px;
+    }
+   
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

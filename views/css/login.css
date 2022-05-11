@@ -1,0 +1,1419 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #f8f7f7;
+    font-family: 'IRANSans','B Yekan';
+}
+
+.head{
+    background-color: #f8f8f8;
+    height: 55px;
+}
+
+.head .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head .nav .logo{
+    display: flex;
+    
+}
+.head .nav .logo h5{
+    color: #009492;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.head .nav .register{
+    display: flex;
+}
+
+.head .nav .register img{
+    object-fit: cover;
+    width: 88px;
+    margin-top: 45px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+
+
+.log{
+    height: 40px;
+    background-color: #009492;
+    color: #fff;
+    border-radius: 5px;
+    opacity: 0.7;
+    font-size: 15px;
+    border-radius: 4px;
+    border: none;
+    font-weight: 600;
+    box-sizing: border-box;
+    border-bottom: 30px;
+}
+.log:hover{
+    background-color: #018489;
+    transition: 0.5s;
+}
+
+#login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content-register{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content-register .asign{
+    height: 100%;
+    margin-top: 10px;
+    border-left: 2px solid rgb(206, 206, 206);
+    
+}
+
+.content-register h5{
+   
+    text-align: right;
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+    margin: 10px 15px;
+    padding: 5px;
+    
+}
+
+.content-register p{
+    text-align: right;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 15px;
+    padding: 5px;
+}
+.content-register p span{
+    color: #009492;
+}
+
+.content-register button{
+    width: 130px;
+    height: 40px;
+    font-size: 15px;
+    background-color: #009498;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 3px;
+    border: none;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.content-register button:hover{
+    background-color: #018489;
+    transition: 0.5s;
+}
+
+
+.content-left{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 550px;
+    height: 140px;
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 5px;
+}
+.content-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-footer .detail{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-footer .detail a{
+    text-decoration: none;
+    color: #009492;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 70px;
+}
+
+
+
+
+
+
+.content .validate{
+    margin-right: 20px;
+    font-size: 10px;
+    color: rgb(163, 10, 10);
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: 'IRANSans';
+}
+
+.content .passValid{
+    margin-right: 20px;
+    font-size: 10px;
+    color: rgb(163, 10, 10);
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: 'IRANSans';
+}
+
+.content{
+    width: 550;
+    height: 420px;
+    background-color: #fff;
+    margin-top: 90px;
+    margin-right: 350px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border: 1px solid rgb(204, 204, 204);
+}
+
+.content input{
+    border: none;
+}
+
+input:focus {
+    outline: 0;
+   
+}
+  
+  
+
+.content img{
+    width: 15px;
+    height: 18px;
+    margin-top: 2px;
+}
+.content .forget a{
+    text-decoration: none;
+    color: #009492;
+    margin-left: 20px;
+}
+
+.content .forget a:hover{
+    color: #016664;
+    font-weight: 500;
+    
+}
+
+.content .title h5{
+    text-align: center;
+    color: #000;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.content .title p{
+    text-align: center;
+    margin-top: 7px;
+    font-size: 20px;
+}
+
+.content .remember{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .remember .change h6{
+    color: #009492;
+    font-size: 15px;
+    margin-top: 7px;
+    margin-right: 20px;
+}
+
+.content .remember .change h6:hover{
+    color: #016664;
+}
+
+.content .reza{
+    width: 100%;
+    background-color: #F5F5F5;
+    border-bottom: 1px solid rgb(203, 203, 203);
+    border-radius: 5px;
+}
+.content .join{
+    max-width: 590px;
+    padding: 15px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.content .join a{
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    margin-right: 12px;
+    color: #009492;
+}
+
+.content .input-1{
+    width: 90%;
+    margin: 10px auto;
+    border: none;
+    border-bottom: 1px solid rgba(6, 43, 17, 0.986);
+    padding: 5px 7px;
+}
+/* .content .input-1 .lable{
+    font-size: 13px;
+    color: #a4a4a4;
+    display: none;
+} */
+
+.lable{
+    color: rgb(53, 3, 3);
+    margin-right: 20px;
+    font-size: 13px;
+    display: none;
+    margin-bottom: 10px;
+}
+.lables{
+    color: rgb(53, 3, 3);
+    margin-right: 20px;
+    font-size: 13px;
+    display: none;
+    margin-bottom: 10px;
+}
+.content .input-1 svg{
+    width: 20px;
+}
+
+
+.content .input-2{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 90%;
+    margin: 10px auto;
+    border-bottom: 1px solid rgba(6, 43, 17, 0.986);
+    padding: 5px 7px;
+    box-sizing: border-box;
+}
+
+
+.content .input-2 svg{
+    width: 20px;
+    margin-left: 5px;
+}
+button.btn-content{
+    background-color: #009492;
+    color: #fff;
+    padding: 5px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+
+.toggle .img-2{
+    display: none;
+    margin-top: 5px;
+}
+
+
+
+.toggle img{
+    color: #505050;
+    opacity: .7;
+    cursor: pointer;
+    font-size: 19px;
+}
+
+.toggle img:hover{
+    opacity: 1;
+}
+
+.hide .img-1{
+    display: none;
+}
+
+.hide .img-2{
+    display: inline-block;
+}
+
+
+.content .input-2 input{
+    width: 90%;
+    background-color: none;
+}
+
+.content .input-1 input{
+    width: 90%;
+    direction: rtl;
+}
+
+
+.remember .change{
+    display: flex;
+}
+
+.remember .change input.coustom{
+    border: 1px solod #000;
+    margin-right: 10px;
+}
+
+
+input[placeholder], [placeholder], *[placeholder] {
+    color: rgb(92, 92, 92) !important;
+    margin-right: 10px;
+    font-size: 12px;
+    padding: 3px 3px;
+}
+
+
+
+
+@media screen and (max-width:575px){
+    .head .nav .register img{
+        object-fit: cover;
+        width: 70px;
+        margin-top: 25px;
+        margin-right: 50px;
+        cursor: pointer;
+    }
+
+
+
+
+
+    #login{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .content-register{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .content-register .asign{
+        display: flex;
+        flex-direction: column;
+        border-left: 2px solid rgb(206, 206, 206);
+        
+    }
+    
+    .content-register h5{
+       
+        text-align: right;
+        font-size: 15px;
+        color: #000;
+        font-weight: 700;
+    }
+    
+    .content-register p{
+        text-align: right;
+        font-size: 13px;
+        font-weight: bold;
+        
+    
+    }
+    .content-register p span{
+        color: #009492;
+    }
+    
+    .content-register button{
+        width: 120px;
+        height: 40px;
+        font-size: 12px;
+        background-color: #009498;
+        color: #fff;
+        font-weight: bold;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-right: 30px;
+    }
+    
+    
+    .content-left{
+        margin-right: 50px;
+        width: 350px;
+        height: 150px;
+        background-color: #fff;
+    }
+    .content-footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .content-footer .detail{
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .content-footer .detail a{
+        text-decoration: none;
+        color: #009492;
+        font-size: 12px;
+        margin-top: 10px;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+
+    .content-footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .content-footer .detail{
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .content-footer .detail a{
+        text-decoration: none;
+        color: #009492;
+        font-size: 9px;
+        margin-top: 10px;
+        margin-right: 20px;
+        margin-left: 40px;
+    }
+
+
+
+    .content{
+        width: 350px;
+        height: 400px;
+        background-color: #fff;
+        margin: 40px auto;
+        border-radius: 3px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    }
+    
+    .content input{
+        border: none;
+    }
+    
+    input:focus {
+        outline: 0;
+       
+    }
+      
+      
+    
+    .content img{
+        width: 18px;
+    }
+    .content .forget a{
+        text-decoration: none;
+        color: #009492;
+        font-size: 14px;
+    }
+    
+    .content .forget a:hover{
+        color: #016664;
+        font-weight: 500;
+        
+    }
+    
+    .content .title h5{
+        text-align: center;
+        color: #009492;
+        font-weight: 700;
+    }
+    
+    .content .remember{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .content .remember .change h6{
+        color: #009492;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    
+    .content .remember .change h6:hover{
+        color: #016664;
+    }
+    
+    .content .join{
+        display: flex;
+        margin-top: 10px;
+    }
+    
+    
+    .content .join h5{
+        font-size: 14px;
+        margin-top: 4px;
+        margin-right: 5px;
+        font-weight: 600;
+        color: #016664;
+    }
+    .content .join a{
+        text-decoration: none;
+        font-weight: 600;
+        margin-right: 12px;
+        color: #009492;
+    }
+    
+    .content .input-1{
+        width: 90%;
+        margin: 10px auto;
+    }
+    .content .input-1 svg{
+        width: 16px;
+    }
+    
+    .content .input-2{
+        width: 90%;
+        margin: 10px auto;
+    }
+    .content .input-2 svg{
+        width: 16px;
+    }
+    .content .input-1 input{
+        width: 90%;
+        direction: rtl;
+    }
+    
+    
+    .remember .change{
+        display: flex;
+    }
+    
+    .remember .change input.coustom{
+        border: 1px solod #000;
+        margin-right: 10px;
+    }
+    
+    
+    input[placeholder], [placeholder], *[placeholder] {
+        color: rgb(122, 122, 122) !important;
+        margin-right: 10px;
+        font-size: 12px;
+        padding: 3px 3px;
+    }
+    
+}
+
+
+
+
+
+
+
+@media screen and (min-width:575px) and (max-width:767px) {
+
+    .head .nav .register img{
+        object-fit: cover;
+        width: 80px;
+        margin-top: 15px;
+        margin-right: 50px;
+        cursor: pointer;
+    }
+
+
+
+
+
+
+
+    #login{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .content-register{
+        display: flex;
+    }
+    .content-register .asign{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .content-register h5{
+        text-align: center;
+        font-size: 20px;
+        color: #000;
+        font-weight: 700;
+        margin: 10px 15px;
+    }
+    
+    .content-register p{
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+        
+    }
+    .content-register p span{
+        color: #009492;
+    }
+    
+    .content-register button{
+        width: 130px;
+        height: 50px;
+        background-color: #009498;
+        color: #fff;
+        padding: 5px 10px;
+        border-radius: 10px;
+        font-size: 12px;
+    }
+    
+    
+    .content-left{
+       margin-right: 50px;
+        width: 500px;
+        height: 150px;
+        background-color: #fff;
+    }
+    
+    .content-left .detail{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .content-left .detail a{
+        text-decoration: none;
+        color: #009492;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+
+
+    .content-footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .content-footer .detail{
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .content-footer .detail a{
+        text-decoration: none;
+        color: #009492;
+        font-size: 12px;
+        margin-top: 5px;
+        margin-right: 30px;
+        margin-left: 40px;
+    }
+
+
+
+    .content{
+        width: 500;
+        height: 400px;
+        background-color: #fff;
+        margin: 40px auto;
+        border-radius: 3px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    }
+    
+    .content input{
+        border: none;
+    }
+    
+    input:focus {
+        outline: 0;
+       
+    }
+      
+      
+    
+    .content img{
+        width: 18px;
+    }
+    .content .forget a{
+        text-decoration: none;
+        color: #009492;
+        font-size: 14px;
+    }
+    
+    .content .forget a:hover{
+        color: #016664;
+        font-weight: 500;
+        
+    }
+    
+    .content .title h5{
+        text-align: center;
+        color: #009492;
+        font-weight: 700;
+    }
+    
+    .content .remember{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .content .remember .change h6{
+        color: #009492;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    
+    .content .remember .change h6:hover{
+        color: #016664;
+    }
+    
+    .content .join{
+        display: flex;
+        margin-top: 10px;
+    }
+    
+    
+    .content .join h5{
+        font-size: 14px;
+        margin-top: 4px;
+        margin-right: 5px;
+        font-weight: 600;
+        color: #016664;
+    }
+    .content .join a{
+        text-decoration: none;
+        font-weight: 600;
+        margin-right: 12px;
+        color: #009492;
+    }
+    
+    .content .input-1{
+        width: 90%;
+        margin: 10px auto;
+    }
+    
+    .content .input-2{
+        width: 90%;
+        margin: 10px auto;
+    }
+    
+    .content .input-1 input{
+        width: 90%;
+        direction: rtl;
+    }
+    
+    
+    .remember .change{
+        display: flex;
+    }
+    
+    .remember .change input.coustom{
+        border: 1px solod #000;
+        margin-right: 10px;
+    }
+    
+    
+    input[placeholder], [placeholder], *[placeholder] {
+        color: rgb(122, 122, 122) !important;
+        margin-right: 10px;
+        font-size: 12px;
+        padding: 3px 3px;
+    }
+    
+}
+
+
+
+@media screen and (min-width:767px) and (max-width:990px){
+
+    .head .nav .register img{
+        object-fit: cover;
+        width: 80px;
+        margin-top: 15px;
+        margin-right: 50px;
+        cursor: pointer;
+    }
+
+
+
+
+
+    #login{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .content-register{
+        display: flex;
+    }
+    
+    .content-register h5{
+        text-align: center;
+        font-size: 21px;
+        color: #000;
+        font-weight: 700;
+        margin: 10px 15px;
+    }
+    
+    .content-register p{
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+        
+    }
+    
+    .content-register button{
+        background-color: #009498;
+        color: #fff;
+        border-radius: 5px;
+        font-size: 13px;
+    }
+    .content-register button:hover{
+        background-color: #038280;
+        transition: 0.5s;
+    }
+    .content-register .asign{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .content-left{
+        margin-right: 50px;
+        width: 550px;
+        height: 150px;
+        background-color: #fff;
+
+    }
+    
+    .content-left .detail{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .content-left .detail a{
+        text-decoration: none;
+        color: #009492;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+
+
+    .content{
+        width: 550px;
+        height: 400px;
+        background-color: #fff;
+        margin: 40px auto;
+        border-radius: 3px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    }
+    
+    .content input{
+        border: none;
+    }
+    
+    input:focus {
+        outline: 0;
+       
+    }
+      
+      
+    
+    .content img{
+        width: 11px;
+    }
+    .content .forget a{
+        text-decoration: none;
+        color: #009492;
+        font-size: 14px;
+    }
+    
+    .content .forget a:hover{
+        color: #016664;
+        font-weight: 500;
+        
+    }
+    
+    .content .title h5{
+        text-align: center;
+        color: #009492;
+        font-weight: 700;
+    }
+    
+    .content .remember{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .content .remember .change h6{
+        color: #009492;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    
+    .content .remember .change h6:hover{
+        color: #016664;
+    }
+    
+    .content .join{
+        display: flex;
+        margin-top: 10px;
+    }
+    
+    
+    .content .join h5{
+        font-size: 13px;
+        margin-top: 4px;
+        margin-right: 5px;
+        font-weight: 600;
+        color: #016664;
+    }
+    .content .join a{
+        text-decoration: none;
+        font-weight: 600;
+        margin-right: 12px;
+        color: #009492;
+        font-size: 14px;
+        margin-top: 2px;
+    }
+    
+    .content .input-1{
+        width: 90%;
+        margin: 10px auto;
+    }
+    
+    .content .input-2{
+        width: 90%;
+        margin: 10px auto;
+    }
+    
+    .content .input-1 input{
+        width: 90%;
+        direction: rtl;
+    }
+    
+    
+    .remember .change{
+        display: flex;
+    }
+    
+    .remember .change input.coustom{
+        border: 1px solod #000;
+        margin-right: 10px;
+    }
+    
+    
+    input[placeholder], [placeholder], *[placeholder] {
+        color: rgb(122, 122, 122) !important;
+        margin-right: 10px;
+        font-size: 12px;
+        padding: 3px 3px;
+    }
+    
+}
+
+
+
+
+@media screen and (min-width:990px) and (max-width:1200px){
+
+    #login{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .content-register{
+        display: flex;
+    }
+    .content-register .asign{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .content-register h5{
+        text-align: center;
+        font-size: 22px;
+        color: #000;
+        font-weight: 700;
+        margin: 10px 15px;
+    }
+    
+    .content-register p{
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+        
+    }
+    .content-register p span{
+        color: #009492;
+    }
+    
+    .content-register button{
+        width: 130px;
+        height: 50px;
+        background-color: #009498;
+        color: #fff;
+        
+        border-radius: 5px;
+    }
+    
+    
+    .content-left{
+        margin-right: 50px;
+        width: 550px;
+        height: 150px;
+        background-color: #fff;
+        padding: 15px;
+    }
+    
+    .content-left .detail{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .content-left .detail a{
+        text-decoration: none;
+        color: #009492;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+
+
+    .content{
+        width: 550px;
+        height: 400px;
+        background-color: #fff;
+        margin: 80px auto;
+        margin-bottom: 20px;
+        border-radius: 3px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    }
+    
+    .content input{
+        border: none;
+    }
+    
+    input:focus {
+        outline: 0;
+       
+    }
+      
+      
+    
+    .content img{
+        width: 11px;
+    }
+    .content .forget a{
+        text-decoration: none;
+        color: #009492;
+        font-size: 14px;
+    }
+    
+    .content .forget a:hover{
+        color: #016664;
+        font-weight: 500;
+        
+    }
+    
+    .content .title h5{
+        text-align: center;
+        color: #009492;
+        font-weight: 700;
+    }
+    
+    .content .remember{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .content .remember .change h6{
+        color: #009492;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    
+    .content .remember .change h6:hover{
+        color: #016664;
+    }
+    
+    .content .join{
+        display: flex;
+        margin-top: 10px;
+    }
+    
+    
+    .content .join h5{
+        font-size: 13px;
+        margin-top: 4px;
+        margin-right: 5px;
+        font-weight: 600;
+        color: #016664;
+    }
+    .content .join a{
+        text-decoration: none;
+        font-weight: 600;
+        margin-right: 12px;
+        color: #009492;
+        font-size: 14px;
+        margin-top: 2px;
+    }
+    
+    .content .input-1{
+        width: 90%;
+        margin: 10px auto;
+    }
+    
+    .content .input-2{
+        width: 90%;
+        margin: 10px auto;
+    }
+    
+    .content .input-1 input{
+        width: 90%;
+        direction: rtl;
+    }
+    
+    
+    .remember .change{
+        display: flex;
+    }
+    
+    .remember .change input.coustom{
+        border: 1px solod #000;
+        margin-right: 10px;
+    }
+    
+    
+    input[placeholder], [placeholder], *[placeholder] {
+        color: rgb(122, 122, 122) !important;
+        margin-right: 10px;
+        font-size: 12px;
+        padding: 3px 3px;
+    }
+    
+}
+
+
+
+
+@media screen and (min-width:1200px) and (max-width:1400px){
+
+    #login{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .content-register{
+        display: flex;
+    }
+    .content-register .asign{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .content-register h5{
+        text-align: center;
+        font-size: 22px;
+        color: #000;
+        font-weight: 700;
+        margin: 10px 15px;
+    }
+    
+    .content-register p{
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+        
+    }
+    .content-register p span{
+        color: #009492;
+    }
+    
+    .content-register button{
+        width: 130px;
+        height: 50px;
+        background-color: #009498;
+        color: #fff;
+        
+        border-radius: 5px;
+    }
+    
+    
+    .content-left{
+        margin-right: 50px;
+        width: 550px;
+        height: 150px;
+        background-color: #fff;
+        padding: 15px;
+    }
+    
+    .content-left .detail{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .content-left .detail a{
+        text-decoration: none;
+        color: #009492;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+
+
+    .content{
+        width: 550px;
+        height: 400px;
+        background-color: #fff;
+        margin: 40px auto;
+        border-radius: 3px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    }
+    
+    .content input{
+        border: none;
+    }
+    
+    input:focus {
+        outline: 0;
+       
+    }
+      
+      
+    
+    .content img{
+        width: 11px;
+    }
+    .content .forget a{
+        text-decoration: none;
+        color: #009492;
+        font-size: 14px;
+    }
+    
+    .content .forget a:hover{
+        color: #016664;
+        font-weight: 500;
+        
+    }
+    
+    .content .title h5{
+        text-align: center;
+        color: #009492;
+        font-weight: 700;
+    }
+    
+    .content .remember{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .content .remember .change h6{
+        color: #009492;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    
+    .content .remember .change h6:hover{
+        color: #016664;
+    }
+    
+    .content .join{
+        display: flex;
+        margin-top: 10px;
+    }
+    
+    
+    .content .join h5{
+        font-size: 13px;
+        margin-top: 4px;
+        margin-right: 5px;
+        font-weight: 600;
+        color: #016664;
+    }
+    .content .join a{
+        text-decoration: none;
+        font-weight: 600;
+        margin-right: 12px;
+        color: #009492;
+        font-size: 14px;
+        margin-top: 2px;
+    }
+    
+    .content .input-1{
+        width: 90%;
+        margin: 10px auto;
+    }
+    
+    .content .input-2{
+        width: 90%;
+        margin: 10px auto;
+    }
+    
+    .content .input-1 input{
+        width: 90%;
+        direction: rtl;
+    }
+    
+    
+    .remember .change{
+        display: flex;
+    }
+    
+    .remember .change input.coustom{
+        border: 1px solod #000;
+        margin-right: 10px;
+    }
+    
+    
+    input[placeholder], [placeholder], *[placeholder] {
+        color: rgb(122, 122, 122) !important;
+        margin-right: 10px;
+        font-size: 12px;
+        padding: 3px 3px;
+    }
+    
+}
+
+
+
